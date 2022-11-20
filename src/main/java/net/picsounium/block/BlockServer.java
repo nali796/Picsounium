@@ -1,6 +1,7 @@
 
 package net.picsounium.block;
 
+import net.picsounium.procedure.ProcedureServerUpdateTick;
 import net.picsounium.creativetab.TabPicsouniumtab;
 import net.picsounium.ElementsPicsounium;
 
@@ -100,6 +101,32 @@ public class BlockServer extends ElementsPicsounium.ModElement {
 		public IBlockState getStateForPlacement(World worldIn, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta,
 				EntityLivingBase placer) {
 			return this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite());
+		}
+
+		@Override
+		public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
+			super.onBlockAdded(world, pos, state);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
+		}
+
+		@Override
+		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
+			super.updateTick(world, pos, state, random);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureServerUpdateTick.executeProcedure($_dependencies);
+			}
+			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 
 		@SideOnly(Side.CLIENT)
