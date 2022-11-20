@@ -35,7 +35,7 @@ public class ProcedureServerUpdateTick extends ElementsPicsounium.ModElement {
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		world.playSound((EntityPlayer) null, x, y, z,
-				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("entity.blaze.ambient")),
-				SoundCategory.NEUTRAL, (float) 60, (float) 1);
+				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), SoundCategory.NEUTRAL,
+				(float) 60, (float) 1);
 	}
 }
