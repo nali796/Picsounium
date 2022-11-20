@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "picsounium:hammer"
+    },
+    "title": {
+      "translate": "advancements.whataham.title"
+    },
+    "description": {
+      "translate": "advancements.whataham.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "whataham": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "picsounium:hammer",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "picsounium:lemod"
+}

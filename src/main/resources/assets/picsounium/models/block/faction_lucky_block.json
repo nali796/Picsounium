@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/faction_block_top",
+    "up": "picsounium:blocks/faction_block_top",
+    "north": "picsounium:blocks/faction_lucky_block_side",
+    "east": "picsounium:blocks/faction_lucky_block_side",
+    "south": "picsounium:blocks/faction_lucky_block_side",
+    "west": "picsounium:blocks/faction_lucky_block_side",
+    "particle": "picsounium:blocks/faction_block_top"
+  }
+}

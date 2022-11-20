@@ -1,0 +1,11 @@
+{
+  "avada_kedavra": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "picsounium:arry_otter_vada_edavra_rim",
+        "stream": false
+      }
+    ]
+  }
+}

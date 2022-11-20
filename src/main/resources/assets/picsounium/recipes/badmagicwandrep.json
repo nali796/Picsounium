@@ -1,0 +1,19 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:bad_magic_wand"
+    },
+    "1": {
+      "item": "picsounium:oriumnugget"
+    }
+  },
+  "result": {
+    "item": "picsounium:bad_magic_wand",
+    "count": 1
+  }
+}

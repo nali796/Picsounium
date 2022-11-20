@@ -1,0 +1,26 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hammer",
+    "customModelName": "Normal",
+    "name": "HAMmer",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 10,
+    "efficiency": 13.0,
+    "attackSpeed": 1.0,
+    "enchantability": 4,
+    "damageVsEntity": 4.0,
+    "usageCount": 150,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onBlockDestroyedWithTool": {
+      "name": "HammerTierIBlockDestroyedWithTool"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "picsounium:blocks/sapling_plingeul",
+    "particle": "picsounium:blocks/sapling_plingeul"
+  }
+}

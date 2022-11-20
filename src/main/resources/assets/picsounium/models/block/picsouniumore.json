@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/picsounium_ore",
+    "up": "picsounium:blocks/picsounium_ore",
+    "north": "picsounium:blocks/picsounium_ore",
+    "east": "picsounium:blocks/picsounium_ore",
+    "south": "picsounium:blocks/picsounium_ore",
+    "west": "picsounium:blocks/picsounium_ore",
+    "particle": "picsounium:blocks/picsounium_ore"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:oriumblock"
+    }
+  },
+  "result": {
+    "item": "picsounium:oriumingot",
+    "count": 9
+  }
+}

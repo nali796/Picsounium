@@ -1,0 +1,13 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "picsounium:picsounium"
+    }
+  ],
+  "result": {
+    "item": "picsounium:picsouniumingot",
+    "count": 9
+  }
+}

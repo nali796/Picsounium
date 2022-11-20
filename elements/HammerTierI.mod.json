@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hammer_tier_l",
+    "customModelName": "Normal",
+    "name": "Titanium Hammer",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 435,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Titanium"
+      }
+    ],
+    "onBlockDestroyedWithTool": {
+      "name": "HammerTierIBlockDestroyedWithTool"
+    }
+  }
+}

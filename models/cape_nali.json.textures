@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture_cape_de_nali"
+      },
+      "name": "default"
+    }
+  }
+}

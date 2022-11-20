@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/leaves_plingeul",
+    "up": "picsounium:blocks/leaves_plingeul",
+    "north": "picsounium:blocks/leaves_plingeul",
+    "east": "picsounium:blocks/leaves_plingeul",
+    "south": "picsounium:blocks/leaves_plingeul",
+    "west": "picsounium:blocks/leaves_plingeul",
+    "particle": "picsounium:blocks/leaves_plingeul"
+  }
+}

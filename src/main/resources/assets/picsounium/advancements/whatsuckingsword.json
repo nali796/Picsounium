@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "picsounium:atricium_sword"
+    },
+    "title": {
+      "translate": "advancements.whatsuckingsword.title"
+    },
+    "description": {
+      "translate": "advancements.whatsuckingsword.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "whatsuckingsword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "picsounium:atricium_sword",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 8
+  },
+  "parent": "picsounium:atriciumingotadvance"
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "nitium_core_face",
+        "1": "titanium",
+        "2": "fan_blade"
+      },
+      "name": "default"
+    }
+  }
+}

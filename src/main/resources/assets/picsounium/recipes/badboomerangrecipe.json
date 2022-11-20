@@ -1,0 +1,27 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "2": {
+      "item": "picsounium:titanium"
+    },
+    "4": {
+      "item": "minecraft:bow"
+    },
+    "6": {
+      "item": "picsounium:titanium"
+    },
+    "8": {
+      "item": "picsounium:nitium"
+    }
+  },
+  "result": {
+    "item": "picsounium:badboomerang",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "canabas",
+    "customModelName": "Normal",
+    "name": "Canabas",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 1,
+    "saturation": 0.1,
+    "eatingSpeed": 66,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CanabasFoodEaten"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "titanium_sword",
+    "customModelName": "Normal",
+    "name": "Titanium Sword",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 9,
+    "efficiency": 8.5,
+    "attackSpeed": 0.8,
+    "enchantability": 28,
+    "damageVsEntity": 9.700000000000001,
+    "usageCount": 812,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Titanium"
+      }
+    ]
+  }
+}

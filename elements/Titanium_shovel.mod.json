@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "titanium_shovel",
+    "customModelName": "Normal",
+    "name": "Titanium Shovel",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 7.5,
+    "attackSpeed": 0.9,
+    "enchantability": 25,
+    "damageVsEntity": 6.9,
+    "usageCount": 631,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Titanium"
+      }
+    ]
+  }
+}

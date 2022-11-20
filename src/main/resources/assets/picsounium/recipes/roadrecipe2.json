@@ -1,0 +1,29 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+    "1": {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+    "2": {
+      "item": "picsounium:roadblock"
+    },
+    "3": {
+      "item": "minecraft:dye",
+      "data": 11
+    }
+  },
+  "result": {
+    "item": "picsounium:roadline2",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/cave_glass",
+    "up": "picsounium:blocks/cave_glass",
+    "north": "picsounium:blocks/cave_glass",
+    "east": "picsounium:blocks/cave_glass",
+    "south": "picsounium:blocks/cave_glass",
+    "west": "picsounium:blocks/cave_glass",
+    "particle": "picsounium:blocks/cave_glass"
+  }
+}

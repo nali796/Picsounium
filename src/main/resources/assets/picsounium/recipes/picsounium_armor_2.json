@@ -1,0 +1,36 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "1": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "2": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "3": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "5": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "6": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "8": {
+      "item": "picsounium:picsouniumingot"
+    }
+  },
+  "result": {
+    "item": "picsounium:picsouniumarmorlegs",
+    "count": 1
+  }
+}

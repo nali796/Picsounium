@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gold_block",
+        "1": "pecial_uckyblock"
+      },
+      "name": "default"
+    }
+  }
+}

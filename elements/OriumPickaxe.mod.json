@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rium_ickaxe",
+    "customModelName": "Normal",
+    "name": "Orium Pickaxe",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 16,
+    "efficiency": 16.0,
+    "attackSpeed": 1.0,
+    "enchantability": 46,
+    "damageVsEntity": 14.0,
+    "usageCount": 1330,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Oriumingot"
+      }
+    ]
+  }
+}

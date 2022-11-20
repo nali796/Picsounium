@@ -1,0 +1,10 @@
+{
+  "_fv": 6,
+  "_type": "command",
+  "definition": {
+    "commandName": "ydxuj4f1k8cn8aqnearw",
+    "onCommandExecuted": {
+      "name": "Codehat1CommandExecuted"
+    }
+  }
+}

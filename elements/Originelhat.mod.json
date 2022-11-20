@@ -1,0 +1,10 @@
+{
+  "_fv": 6,
+  "_type": "command",
+  "definition": {
+    "commandName": "gx7nbs5pnnul3zxlrvhz",
+    "onCommandExecuted": {
+      "name": "OriginelhatCommandExecuted"
+    }
+  }
+}

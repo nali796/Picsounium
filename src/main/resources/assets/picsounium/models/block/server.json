@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/server_top",
+    "up": "picsounium:blocks/server_top",
+    "north": "picsounium:blocks/server_face_on",
+    "east": "picsounium:blocks/server_side",
+    "south": "picsounium:blocks/server_face",
+    "west": "picsounium:blocks/server_side",
+    "particle": "picsounium:blocks/server_top"
+  }
+}

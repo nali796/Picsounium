@@ -1,0 +1,39 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:oriumingot"
+    },
+    "2": {
+      "item": "picsounium:oriumingot"
+    },
+    "3": {
+      "item": "picsounium:oriumingot"
+    },
+    "4": {
+      "item": "picsounium:oriumingot"
+    },
+    "5": {
+      "item": "picsounium:oriumingot"
+    },
+    "6": {
+      "item": "picsounium:oriumingot"
+    },
+    "7": {
+      "item": "picsounium:oriumingot"
+    },
+    "8": {
+      "item": "picsounium:oriumingot"
+    }
+  },
+  "result": {
+    "item": "picsounium:oriumbody",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "picsounium:oriumsword"
+    },
+    "title": {
+      "translate": "advancements.anexcellentsword.title"
+    },
+    "description": {
+      "translate": "advancements.anexcellentsword.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "anexcellentsword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "picsounium:oriumsword",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "picsounium:oriumingotadvance"
+}

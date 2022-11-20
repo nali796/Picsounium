@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "picsounium:roadline"
+    },
+    "facing=north": {
+      "model": "picsounium:roadline"
+    },
+    "facing=east": {
+      "model": "picsounium:roadline",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "picsounium:roadline",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "picsounium:roadline",
+      "y": 270
+    }
+  }
+}

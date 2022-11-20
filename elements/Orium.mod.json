@@ -1,0 +1,54 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "orium_helmet",
+    "enableBody": true,
+    "textureBody": "orium_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "orium_leggings",
+    "enableBoots": true,
+    "textureBoots": "orium_boots",
+    "onBootsTick": {
+      "name": "OriumBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "armorTextureFile": "orium_",
+    "helmetName": "Orium Helmet",
+    "bodyName": "Orium Body",
+    "leggingsName": "Orium Leggings",
+    "bootsName": "Orium Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 29,
+    "damageValueHelmet": 5,
+    "damageValueBody": 9,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 4,
+    "enchantability": 9,
+    "toughness": 2.4,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Oriumingot"
+      }
+    ]
+  }
+}

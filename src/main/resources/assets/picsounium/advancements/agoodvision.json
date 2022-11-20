@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "picsounium:picsouniumarmorhelmet"
+    },
+    "title": {
+      "translate": "advancements.agoodvision.title"
+    },
+    "description": {
+      "translate": "advancements.agoodvision.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "agoodvision": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "picsounium:picsouniumarmorhelmet",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "picsounium:picsouniumadvance"
+}

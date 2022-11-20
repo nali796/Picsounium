@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "picsounium:atriciumnugget"
+    },
+    "title": {
+      "translate": "advancements.atriciumnuggetadvance.title"
+    },
+    "description": {
+      "translate": "advancements.atriciumnuggetadvance.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "atriciumnuggetadvance": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "picsounium:atriciumnugget",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 6,
+    "recipes": [
+      "picsounium:atriciumingotrecipe"
+    ]
+  },
+  "parent": "picsounium:lemod"
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "orium_hammer",
+    "customModelName": "Normal",
+    "name": "Orium Hammer",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 3,
+    "damageVsEntity": 4.0,
+    "usageCount": 1083,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Oriumingot"
+      }
+    ],
+    "onBlockDestroyedWithTool": {
+      "name": "HammerTierIBlockDestroyedWithTool"
+    }
+  }
+}

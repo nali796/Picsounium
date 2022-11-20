@@ -1,0 +1,20 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:dynamite"
+    },
+    "1": {
+      "item": "picsounium:picsouniumstick"
+    }
+  },
+  "result": {
+    "item": "picsounium:picsouniumdynamite",
+    "count": 3
+  }
+}

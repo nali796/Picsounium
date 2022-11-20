@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "picsounium:bounceblock"
+    },
+    "facing=north": {
+      "model": "picsounium:bounceblock"
+    },
+    "facing=east": {
+      "model": "picsounium:bounceblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "picsounium:bounceblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "picsounium:bounceblock",
+      "y": 270
+    }
+  }
+}

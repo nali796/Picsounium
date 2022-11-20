@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/orium_block",
+    "up": "picsounium:blocks/orium_block",
+    "north": "picsounium:blocks/orium_block",
+    "east": "picsounium:blocks/orium_block",
+    "south": "picsounium:blocks/orium_block",
+    "west": "picsounium:blocks/orium_block",
+    "particle": "picsounium:blocks/orium_block"
+  }
+}

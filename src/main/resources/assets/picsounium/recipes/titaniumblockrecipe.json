@@ -1,0 +1,42 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:titanium"
+    },
+    "1": {
+      "item": "picsounium:titanium"
+    },
+    "2": {
+      "item": "picsounium:titanium"
+    },
+    "3": {
+      "item": "picsounium:titanium"
+    },
+    "4": {
+      "item": "picsounium:titanium"
+    },
+    "5": {
+      "item": "picsounium:titanium"
+    },
+    "6": {
+      "item": "picsounium:titanium"
+    },
+    "7": {
+      "item": "picsounium:titanium"
+    },
+    "8": {
+      "item": "picsounium:titanium"
+    }
+  },
+  "result": {
+    "item": "picsounium:titaniumblock",
+    "count": 1
+  }
+}

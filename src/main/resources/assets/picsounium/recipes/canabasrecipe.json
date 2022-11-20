@@ -1,0 +1,40 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:sapling",
+      "data": 32767
+    },
+    "3": {
+      "item": "minecraft:coal",
+      "data": 32767
+    },
+    "4": {
+      "item": "minecraft:coal",
+      "data": 32767
+    },
+    "5": {
+      "item": "minecraft:coal",
+      "data": 32767
+    },
+    "6": {
+      "item": "picsounium:sucrecuit"
+    },
+    "7": {
+      "item": "picsounium:sucrecuit"
+    },
+    "8": {
+      "item": "picsounium:sucrecuit"
+    }
+  },
+  "result": {
+    "item": "picsounium:canabas",
+    "count": 1
+  }
+}

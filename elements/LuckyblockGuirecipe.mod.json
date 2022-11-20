@@ -1,0 +1,26 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Lancer",
+          "onClick": {
+            "name": "Luckyblockprocess"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Lancer",
+          "x": 366,
+          "y": 137
+        }
+      }
+    ]
+  }
+}

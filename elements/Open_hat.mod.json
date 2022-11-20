@@ -1,0 +1,50 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "cosmetique_hat",
+    "enableBody": false,
+    "textureBody": "cape",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onHelmetTick": {
+      "name": "PicsouniumArmorHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "armorTextureFile": "alloween_hat_",
+    "helmetName": "Chapeau de l'ouverture",
+    "bodyName": "Chapeau de naligator",
+    "leggingsName": "Cape Leggings",
+    "bootsName": "Cape Boots",
+    "helmetModelName": "Modelhat",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "open_hat.png",
+    "bodyModelName": "Modelhat",
+    "bodyModelPart": "head",
+    "bodyModelTexture": "naligator_hat__layer_1.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 0,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

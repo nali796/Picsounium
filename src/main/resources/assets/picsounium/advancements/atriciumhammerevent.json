@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "picsounium:atricium_hammer"
+    },
+    "title": {
+      "translate": "advancements.atriciumhammerevent.title"
+    },
+    "description": {
+      "translate": "advancements.atriciumhammerevent.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "atriciumhammerevent": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "picsounium:atricium_hammer",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "picsounium:thebetshammer"
+}

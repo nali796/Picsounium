@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/pecial_uckyblock",
+    "up": "picsounium:blocks/pecial_uckyblock",
+    "north": "picsounium:blocks/pecial_uckyblock",
+    "east": "picsounium:blocks/pecial_uckyblock",
+    "south": "picsounium:blocks/pecial_uckyblock",
+    "west": "picsounium:blocks/pecial_uckyblock",
+    "particle": "picsounium:blocks/pecial_uckyblock"
+  }
+}

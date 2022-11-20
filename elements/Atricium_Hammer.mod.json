@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "atricium_hammer",
+    "customModelName": "Normal",
+    "name": "Atricium Hammer",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 9,
+    "efficiency": 9.5,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 4,
+    "damageVsEntity": 4.6,
+    "usageCount": 2132,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Atriciumingot"
+      }
+    ],
+    "onBlockDestroyedWithTool": {
+      "name": "AtriciumHammerBlockDestroyedWithTool"
+    }
+  }
+}

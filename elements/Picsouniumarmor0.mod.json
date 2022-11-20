@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Picsouniumingot"
+      },
+      {
+        "value": "CUSTOM:Picsouniumingot"
+      },
+      {
+        "value": "CUSTOM:Picsouniumingot"
+      },
+      {
+        "value": "CUSTOM:Picsouniumingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Picsouniumingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PicsouniumArmor.helmet"
+    },
+    "name": "picsouniumarmor0",
+    "namespace": "mod"
+  }
+}

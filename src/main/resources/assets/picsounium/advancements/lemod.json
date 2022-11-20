@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "picsounium:textures/picsounium_background_advencement.png",
+    "icon": {
+      "item": "picsounium:texturemod"
+    },
+    "title": {
+      "translate": "advancements.lemod.title"
+    },
+    "description": {
+      "translate": "advancements.lemod.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lemod": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

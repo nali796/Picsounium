@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "atricium_axe",
+    "customModelName": "Normal",
+    "name": "Atricium Axe",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 12,
+    "efficiency": 13.5,
+    "attackSpeed": 1.7000000000000002,
+    "enchantability": 48,
+    "damageVsEntity": 20.1,
+    "usageCount": 2145,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Atriciumingot"
+      }
+    ]
+  }
+}

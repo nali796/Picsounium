@@ -1,0 +1,39 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:atriciumingot"
+    },
+    "2": {
+      "item": "picsounium:atriciumingot"
+    },
+    "3": {
+      "item": "picsounium:atriciumingot"
+    },
+    "4": {
+      "item": "picsounium:atriciumingot"
+    },
+    "5": {
+      "item": "picsounium:atriciumingot"
+    },
+    "6": {
+      "item": "picsounium:atriciumingot"
+    },
+    "7": {
+      "item": "picsounium:atriciumingot"
+    },
+    "8": {
+      "item": "picsounium:atriciumingot"
+    }
+  },
+  "result": {
+    "item": "picsounium:atriciumarmorbody",
+    "count": 1
+  }
+}

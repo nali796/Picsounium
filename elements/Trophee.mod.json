@@ -1,0 +1,95 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "gold_block",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "trophee:default",
+    "rotationMode": 0,
+    "hasTransparency": true,
+    "transparencyType": "CUTOUT",
+    "mx": 0.30000000000000004,
+    "my": 0.0,
+    "mz": 0.30000000000000004,
+    "Mx": 0.7000000000000001,
+    "My": 0.7999999999999999,
+    "Mz": 0.7000000000000001,
+    "faceShape": "SOLID",
+    "name": "Lucky Block Trophee",
+    "specialInfo": [],
+    "hardness": 0.8999999999999999,
+    "resistance": 3.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "destroyTool": "Not specified",
+    "affectedBySilkTouch": true,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "PISTON"
+    },
+    "tickRate": 1000,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "ANVIL"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.09999999850988389,
+    "particleAmount": 1,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onTickUpdate": {
+      "name": "TropheeUpdateTick"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:compactedprismarine"
+    },
+    "1": {
+      "item": "picsounium:compactedprismarine"
+    },
+    "2": {
+      "item": "picsounium:compactedprismarine"
+    },
+    "3": {
+      "item": "picsounium:compactedprismarine"
+    },
+    "4": {
+      "item": "picsounium:atriciumblock"
+    },
+    "5": {
+      "item": "picsounium:compactedprismarine"
+    },
+    "6": {
+      "item": "minecraft:stone",
+      "data": 6
+    },
+    "7": {
+      "item": "minecraft:stone",
+      "data": 6
+    },
+    "8": {
+      "item": "minecraft:stone",
+      "data": 6
+    }
+  },
+  "result": {
+    "item": "picsounium:server",
+    "count": 1
+  }
+}

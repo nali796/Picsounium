@@ -1,0 +1,41 @@
+{
+  "_fv": 6,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "bad_boomerang",
+    "customModelName": "Normal",
+    "name": "Bad Boomerang",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:BadBoomerangtexture"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "BadPotionPotionStartedapplied"
+    },
+    "onBulletHitsEntity": {
+      "name": "BadPotionPotionStartedapplied"
+    }
+  }
+}

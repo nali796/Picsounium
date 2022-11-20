@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "picsounium:plingeullog"
+    },
+    "facing=south": {
+      "model": "picsounium:plingeullog"
+    },
+    "facing=north": {
+      "model": "picsounium:plingeullog"
+    },
+    "facing=east": {
+      "model": "picsounium:plingeullog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "picsounium:plingeullog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "picsounium:plingeullog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "picsounium:plingeullog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

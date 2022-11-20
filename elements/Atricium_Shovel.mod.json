@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "atricium_shovel",
+    "customModelName": "Normal",
+    "name": "Atricium Shovel",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 12,
+    "efficiency": 16.5,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 42,
+    "damageVsEntity": 8.2,
+    "usageCount": 2433,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Atriciumingot"
+      }
+    ],
+    "onBlockDestroyedWithTool": {
+      "name": "Orium_shovel_process"
+    }
+  }
+}

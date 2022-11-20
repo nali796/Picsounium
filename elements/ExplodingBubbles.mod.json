@@ -1,0 +1,41 @@
+{
+  "_fv": 6,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "exploding_bubbles",
+    "customModelName": "Normal",
+    "name": "Exploding Bubbles",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:ExplodingBubbles"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.firework.launch"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 0.7,
+    "bulletDamage": 4.2,
+    "bulletKnockback": 9,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:ExplodingBubbles"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "ExplodingBubblesBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "ExplodingBubblesBulletHitsBlock"
+    }
+  }
+}

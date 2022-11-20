@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/titanium",
+    "up": "picsounium:blocks/titanium",
+    "north": "picsounium:blocks/titanium",
+    "east": "picsounium:blocks/titanium",
+    "south": "picsounium:blocks/titanium",
+    "west": "picsounium:blocks/titanium",
+    "particle": "picsounium:blocks/titanium"
+  }
+}

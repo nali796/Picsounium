@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/bounce_block",
+    "up": "picsounium:blocks/bounce_block_top",
+    "north": "picsounium:blocks/bounce_block",
+    "east": "picsounium:blocks/bounce_block",
+    "south": "picsounium:blocks/bounce_block",
+    "west": "picsounium:blocks/bounce_block",
+    "particle": "picsounium:blocks/bounce_block"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "1": {
+      "item": "picsounium:destructortieri"
+    },
+    "2": {
+      "item": "picsounium:picsouniumingot"
+    }
+  },
+  "result": {
+    "item": "picsounium:destructor_tier_ii",
+    "count": 1
+  }
+}

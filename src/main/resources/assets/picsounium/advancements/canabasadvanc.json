@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "canabasadvanc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "picsounium:canabas",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 11,
+    "recipes": [
+      "picsounium:canabasrecipe"
+    ]
+  },
+  "parent": "picsounium:lemod"
+}

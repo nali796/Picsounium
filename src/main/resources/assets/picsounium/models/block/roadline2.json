@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/road_0",
+    "up": "picsounium:blocks/road_2",
+    "north": "picsounium:blocks/road_0",
+    "east": "picsounium:blocks/road_0",
+    "south": "picsounium:blocks/road_1",
+    "west": "picsounium:blocks/road_1",
+    "particle": "picsounium:blocks/road_0"
+  }
+}

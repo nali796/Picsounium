@@ -1,0 +1,20 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:oriumingot"
+    },
+    "1": {
+      "item": "picsounium:oriumingot"
+    }
+  },
+  "result": {
+    "item": "picsounium:oriumstick",
+    "count": 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Sortillège switch",
+    "onKeyPressed": {
+      "name": "FOnKeyPressed"
+    }
+  }
+}

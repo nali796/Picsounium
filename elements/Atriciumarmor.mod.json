@@ -1,0 +1,60 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "atricium_helmet",
+    "enableBody": true,
+    "textureBody": "atricium_chesplate",
+    "enableLeggings": true,
+    "textureLeggings": "atricium_legging",
+    "enableBoots": true,
+    "textureBoots": "atricium_boots",
+    "onHelmetTick": {
+      "name": "PicsouniumArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "OriumBodyTickEvent"
+    },
+    "onBootsTick": {
+      "name": "Titanium_boots_tick_update"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "armorTextureFile": "atricium__",
+    "helmetName": "Atricium Helmet",
+    "bodyName": "Atricium Body",
+    "leggingsName": "Atricium Leggings",
+    "bootsName": "Atricium Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 29,
+    "damageValueHelmet": 5,
+    "damageValueBody": 9,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 6,
+    "enchantability": 7,
+    "toughness": 2.6,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Atriciumingot"
+      }
+    ]
+  }
+}

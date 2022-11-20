@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "picsounium_hammer",
+    "customModelName": "Normal",
+    "name": "Picsounium Hammer",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 3,
+    "damageVsEntity": 4.0,
+    "usageCount": 666,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Picsouniumingot"
+      }
+    ],
+    "onBlockDestroyedWithTool": {
+      "name": "HammerTierIBlockDestroyedWithTool"
+    }
+  }
+}

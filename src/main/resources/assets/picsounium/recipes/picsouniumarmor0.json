@@ -1,0 +1,29 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "1": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "2": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "3": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "5": {
+      "item": "picsounium:picsouniumingot"
+    }
+  },
+  "result": {
+    "item": "picsounium:picsouniumarmorhelmet",
+    "count": 1
+  }
+}

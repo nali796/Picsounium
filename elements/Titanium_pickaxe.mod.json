@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "titanium_pickaxe",
+    "customModelName": "Normal",
+    "name": "Titanium Pickaxe",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 13.5,
+    "attackSpeed": 0.7999999999999999,
+    "enchantability": 27,
+    "damageVsEntity": 7.8999999999999995,
+    "usageCount": 714,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Titanium"
+      }
+    ]
+  }
+}

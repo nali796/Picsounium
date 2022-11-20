@@ -1,0 +1,30 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:atriciumingot"
+    },
+    "1": {
+      "item": "picsounium:atriciumingot"
+    },
+    "2": {
+      "item": "picsounium:atriciumingot"
+    },
+    "4": {
+      "item": "picsounium:atriciumstick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "picsounium:atricium_pickaxe",
+    "count": 1
+  }
+}

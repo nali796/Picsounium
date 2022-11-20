@@ -1,0 +1,30 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "picsounium:atriciumingot"
+    },
+    "3": {
+      "item": "picsounium:titanium"
+    },
+    "4": {
+      "item": "picsounium:atriciumingot"
+    },
+    "5": {
+      "item": "picsounium:titanium"
+    },
+    "7": {
+      "item": "picsounium:oriumstick"
+    }
+  },
+  "result": {
+    "item": "picsounium:atricium_sword",
+    "count": 1
+  }
+}

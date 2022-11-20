@@ -1,0 +1,8 @@
+{
+  "parent": "picsounium:custom/bamboo",
+  "textures": {
+    "all": "picsounium:blocks/bamboo",
+    "particle": "picsounium:blocks/bamboo",
+    "0": "picsounium:blocks/bamboo"
+  }
+}

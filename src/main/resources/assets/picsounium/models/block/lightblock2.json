@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/light3",
+    "up": "picsounium:blocks/light3",
+    "north": "picsounium:blocks/light3",
+    "east": "picsounium:blocks/light3",
+    "south": "picsounium:blocks/light3",
+    "west": "picsounium:blocks/light3",
+    "particle": "picsounium:blocks/light3"
+  }
+}

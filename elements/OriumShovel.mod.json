@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "orium_shovel",
+    "customModelName": "Normal",
+    "name": "Orium Shovel",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 7,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 46,
+    "damageVsEntity": 7.9,
+    "usageCount": 1330,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Oriumingot"
+      }
+    ],
+    "onBlockDestroyedWithTool": {
+      "name": "Orium_shovel_process"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "picsounium:picsouniumstick"
+    },
+    "3": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "4": {
+      "item": "picsounium:destructor_tier_ii"
+    },
+    "5": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "7": {
+      "item": "picsounium:picsouniumstick"
+    }
+  },
+  "result": {
+    "item": "picsounium:destructor_tier_iii",
+    "count": 1
+  }
+}

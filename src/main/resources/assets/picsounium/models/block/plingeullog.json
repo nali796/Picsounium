@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "picsounium:blocks/log_plingeul_top",
+    "up": "picsounium:blocks/log_plingeul_top",
+    "north": "picsounium:blocks/log_plingeul",
+    "east": "picsounium:blocks/log_plingeul",
+    "south": "picsounium:blocks/log_plingeul",
+    "west": "picsounium:blocks/log_plingeul",
+    "particle": "picsounium:blocks/log_plingeul_top"
+  }
+}

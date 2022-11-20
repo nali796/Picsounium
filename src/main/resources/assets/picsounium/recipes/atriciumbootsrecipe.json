@@ -1,0 +1,26 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:atriciumingot"
+    },
+    "2": {
+      "item": "picsounium:atriciumingot"
+    },
+    "3": {
+      "item": "picsounium:atriciumingot"
+    },
+    "5": {
+      "item": "picsounium:atriciumingot"
+    }
+  },
+  "result": {
+    "item": "picsounium:atriciumarmorboots",
+    "count": 1
+  }
+}

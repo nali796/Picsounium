@@ -1,0 +1,10 @@
+{
+  "_fv": 6,
+  "_type": "command",
+  "definition": {
+    "commandName": "e6cfp8ds776hr7ze5hsu",
+    "onCommandExecuted": {
+      "name": "ChapeaubetaCommandExecuted"
+    }
+  }
+}

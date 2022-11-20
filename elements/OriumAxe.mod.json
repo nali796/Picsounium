@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rium_axe",
+    "customModelName": "Normal",
+    "name": "Orium Axe",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 7,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 46,
+    "damageVsEntity": 19.0,
+    "usageCount": 1330,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Oriumingot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:atriciumingot"
+    },
+    "1": {
+      "item": "picsounium:atriciumingot"
+    },
+    "2": {
+      "item": "picsounium:atriciumingot"
+    },
+    "3": {
+      "item": "picsounium:atriciumingot"
+    },
+    "4": {
+      "item": "picsounium:atricium_hammer"
+    },
+    "5": {
+      "item": "picsounium:atriciumingot"
+    },
+    "7": {
+      "item": "picsounium:atriciumstick"
+    }
+  },
+  "result": {
+    "item": "picsounium:atricium_hammer",
+    "count": 1
+  }
+}

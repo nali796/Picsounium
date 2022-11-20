@@ -1,0 +1,8 @@
+{
+  "parent": "picsounium:custom/wooden_crate",
+  "textures": {
+    "all": "picsounium:blocks/oak_planksd",
+    "particle": "picsounium:blocks/oak_planksd",
+    "0": "picsounium:blocks/oak_planksd"
+  }
+}

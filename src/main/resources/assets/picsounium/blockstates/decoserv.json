@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "picsounium:decoserv"
+    },
+    "facing=north": {
+      "model": "picsounium:decoserv"
+    },
+    "facing=east": {
+      "model": "picsounium:decoserv",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "picsounium:decoserv",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "picsounium:decoserv",
+      "y": 270
+    }
+  }
+}

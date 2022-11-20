@@ -1,0 +1,26 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "3": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "4": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "5": {
+      "item": "picsounium:picsouniumingot"
+    }
+  },
+  "result": {
+    "item": "picsounium:picsounium_spike",
+    "count": 4
+  }
+}

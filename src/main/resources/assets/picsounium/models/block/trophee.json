@@ -1,0 +1,9 @@
+{
+  "parent": "picsounium:custom/trophee",
+  "textures": {
+    "all": "picsounium:blocks/gold_block",
+    "particle": "picsounium:blocks/gold_block",
+    "0": "picsounium:blocks/gold_block",
+    "1": "picsounium:blocks/pecial_uckyblock"
+  }
+}

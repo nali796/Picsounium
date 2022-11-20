@@ -1,0 +1,36 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "1": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "2": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "3": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "4": {
+      "item": "picsounium:hammertieri"
+    },
+    "5": {
+      "item": "picsounium:picsouniumingot"
+    },
+    "7": {
+      "item": "picsounium:picsouniumstick"
+    }
+  },
+  "result": {
+    "item": "picsounium:picsounium_hammer",
+    "count": 1
+  }
+}

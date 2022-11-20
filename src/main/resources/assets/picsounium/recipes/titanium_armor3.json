@@ -1,0 +1,26 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:titanium"
+    },
+    "2": {
+      "item": "picsounium:titanium"
+    },
+    "3": {
+      "item": "picsounium:titanium"
+    },
+    "5": {
+      "item": "picsounium:titanium"
+    }
+  },
+  "result": {
+    "item": "picsounium:titaniumarmorboots",
+    "count": 1
+  }
+}

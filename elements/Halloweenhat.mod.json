@@ -1,0 +1,10 @@
+{
+  "_fv": 6,
+  "_type": "command",
+  "definition": {
+    "commandName": "cvbpgi899gev8ao1qx0k",
+    "onCommandExecuted": {
+      "name": "HalloweenhatCommandExecuted"
+    }
+  }
+}

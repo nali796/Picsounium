@@ -1,0 +1,26 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "banana_shovel",
+    "customModelName": "Normal",
+    "name": "Banana Shovel",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 9,
+    "efficiency": 12.5,
+    "attackSpeed": 1.0,
+    "enchantability": 46,
+    "damageVsEntity": 7.9,
+    "usageCount": 680,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onBlockDestroyedWithTool": {
+      "name": "Orium_shovel_process"
+    }
+  }
+}

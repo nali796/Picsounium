@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Yeah Man...",
+    "achievementDescription": "The canabas man...",
+    "achievementIcon": {
+      "value": "CUSTOM:Canabas"
+    },
+    "background": "Default",
+    "disableDisplay": true,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "Canabasrecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 11,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:Lemod"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"17\" y=\"32\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Canabas</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

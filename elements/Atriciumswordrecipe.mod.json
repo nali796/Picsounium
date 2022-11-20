@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Atriciumingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Titanium"
+      },
+      {
+        "value": "CUSTOM:Atriciumingot"
+      },
+      {
+        "value": "CUSTOM:Titanium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Oriumstick"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Atricium_sword"
+    },
+    "name": "atriciumswordrecipe",
+    "namespace": "mod"
+  }
+}

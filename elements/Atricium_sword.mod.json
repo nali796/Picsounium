@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "atricium_sword",
+    "customModelName": "Normal",
+    "name": "Atricium Sword",
+    "creativeTab": {
+      "value": "CUSTOM:Picsouniumtab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 19,
+    "efficiency": 14.0,
+    "attackSpeed": 2.4,
+    "enchantability": 51,
+    "damageVsEntity": 23.599999999999998,
+    "usageCount": 2418,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Atriciumingot"
+      }
+    ],
+    "onItemInUseTick": {
+      "name": "AtriciumswordToolInHandTick"
+    }
+  }
+}

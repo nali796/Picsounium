@@ -1,0 +1,36 @@
+{
+  "group": "picsounium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "picsounium:titanium"
+    },
+    "1": {
+      "item": "picsounium:titanium"
+    },
+    "2": {
+      "item": "picsounium:titanium"
+    },
+    "3": {
+      "item": "picsounium:titanium"
+    },
+    "4": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "5": {
+      "item": "picsounium:titanium"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "picsounium:hammertieri",
+    "count": 1
+  }
+}

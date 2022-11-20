@@ -1,0 +1,8 @@
+{
+  "parent": "picsounium:custom/picsounium_spike",
+  "textures": {
+    "all": "picsounium:blocks/picsounium_spike",
+    "particle": "picsounium:blocks/picsounium_spike",
+    "0": "picsounium:blocks/picsounium_block"
+  }
+}
