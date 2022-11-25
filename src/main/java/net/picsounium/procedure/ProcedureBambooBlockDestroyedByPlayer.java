@@ -48,5 +48,41 @@ public class ProcedureBambooBlockDestroyedByPlayer extends ElementsPicsounium.Mo
 			world.notifyNeighborsOfStateChange(new BlockPos((int) x, (int) (y + 2), (int) z),
 					world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z)).getBlock(), true);
 		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 2), (int) z))).getBlock() == BlockBamboo.block.getDefaultState().getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) (y + 2), (int) z), Blocks.AIR.getDefaultState(), 3);
+			if (!world.isRemote) {
+				EntityItem entityToSpawn = new EntityItem(world, x, (y + 2), z, new ItemStack(BlockBamboo.block, (int) (1)));
+				entityToSpawn.setPickupDelay(10);
+				world.spawnEntity(entityToSpawn);
+			}
+			world.notifyNeighborsOfStateChange(new BlockPos((int) x, (int) (y + 3), (int) z),
+					world.getBlockState(new BlockPos((int) x, (int) (y + 3), (int) z)).getBlock(), true);
+			world.notifyNeighborsOfStateChange(new BlockPos((int) x, (int) (y + 4), (int) z),
+					world.getBlockState(new BlockPos((int) x, (int) (y + 4), (int) z)).getBlock(), true);
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 3), (int) z))).getBlock() == BlockBamboo.block.getDefaultState().getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) (y + 3), (int) z), Blocks.AIR.getDefaultState(), 3);
+			if (!world.isRemote) {
+				EntityItem entityToSpawn = new EntityItem(world, x, (y + 3), z, new ItemStack(BlockBamboo.block, (int) (1)));
+				entityToSpawn.setPickupDelay(10);
+				world.spawnEntity(entityToSpawn);
+			}
+			world.notifyNeighborsOfStateChange(new BlockPos((int) x, (int) (y + 4), (int) z),
+					world.getBlockState(new BlockPos((int) x, (int) (y + 4), (int) z)).getBlock(), true);
+			world.notifyNeighborsOfStateChange(new BlockPos((int) x, (int) (y + 5), (int) z),
+					world.getBlockState(new BlockPos((int) x, (int) (y + 5), (int) z)).getBlock(), true);
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 4), (int) z))).getBlock() == BlockBamboo.block.getDefaultState().getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) (y + 4), (int) z), Blocks.AIR.getDefaultState(), 3);
+			if (!world.isRemote) {
+				EntityItem entityToSpawn = new EntityItem(world, x, (y + 4), z, new ItemStack(BlockBamboo.block, (int) (1)));
+				entityToSpawn.setPickupDelay(10);
+				world.spawnEntity(entityToSpawn);
+			}
+			world.notifyNeighborsOfStateChange(new BlockPos((int) x, (int) (y + 6), (int) z),
+					world.getBlockState(new BlockPos((int) x, (int) (y + 6), (int) z)).getBlock(), true);
+			world.notifyNeighborsOfStateChange(new BlockPos((int) x, (int) (y + 7), (int) z),
+					world.getBlockState(new BlockPos((int) x, (int) (y + 7), (int) z)).getBlock(), true);
+		}
 	}
 }

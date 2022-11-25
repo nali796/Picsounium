@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "picsounium:blocks/atricium_block",
-    "up": "picsounium:blocks/atricium_block",
-    "north": "picsounium:blocks/atricium_block",
-    "east": "picsounium:blocks/atricium_block",
-    "south": "picsounium:blocks/atricium_block",
-    "west": "picsounium:blocks/atricium_block",
-    "particle": "picsounium:blocks/atricium_block"
+    "down": "picsounium:blocks/atricium_block_0",
+    "up": "picsounium:blocks/atricium_block_0",
+    "north": "picsounium:blocks/atricium_block_0",
+    "east": "picsounium:blocks/atricium_block_0",
+    "south": "picsounium:blocks/atricium_block_0",
+    "west": "picsounium:blocks/atricium_block_0",
+    "particle": "picsounium:blocks/atricium_block_0"
   }
 }

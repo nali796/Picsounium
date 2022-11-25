@@ -3321,6 +3321,50 @@
           }
         ]
       }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AtriciumOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Itsaruby",
+      "type": "achievement",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3424,6 +3468,7 @@
       "item.picsouniumarmorbody.name": "Picsounium Body",
       "advancements.noel_hat.title": "Boo",
       "item.oriumaxe.name": "Orium Axe",
+      "advancements.itsaruby.descr": "Beatifull ruby",
       "item.magic_wand_6.name": "Magic Wand",
       "item.oriumlegs.name": "Orium Leggings",
       "advancements.letitane.title": "The age of titanium",
@@ -3466,6 +3511,7 @@
       "item.beta_hatboots.name": "Cape Boots",
       "advancements.banana.descr": "What? A Banana Shovel",
       "advancements.whynotuseahammer.title": "Why not use a hammer",
+      "advancements.itsaruby.title": "It\u0027s a ruby",
       "item.magic_wand_2.name": "Magic Wand",
       "advancements.atriciumnuggetadvance.descr": "You have mined Atricium",
       "advancements.lemod.title": "The Mod",
@@ -3545,6 +3591,7 @@
       "item.oriumnugget.name": "Orium nugget",
       "tile.titaniumluckyblock.name": "Titanium Lucky Block",
       "advancements.oriumadvance.descr": "Transformer ces nugget en lingot et on verra qui est le plus riche de ce monde",
+      "item.ruby.name": "Ruby",
       "item.badboomerangtexture.name": "Badboomerangtexture",
       "item.atriciumstick.name": "Atricium stick",
       "advancements.agoodspeed.title": "A Good Speed",
@@ -3568,7 +3615,7 @@
   "workspaceSettings": {
     "modid": "picsounium",
     "modName": "Picsounium",
-    "version": "0.8.7.2",
+    "version": "0.8.7.3",
     "description": "Picsounium is a faction pvp server mod",
     "author": "naligator",
     "websiteURL": "https://www.curseforge.com/members/nali796/projects",

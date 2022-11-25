@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "itsaruby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "picsounium:ruby",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 26
+  },
+  "parent": "picsounium:atriciumnuggetadvance"
+}

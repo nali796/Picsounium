@@ -1,6 +1,7 @@
 
 package net.picsounium.block;
 
+import net.picsounium.procedure.ProcedureAtriciumOreBlockDestroyedByPlayer;
 import net.picsounium.creativetab.TabPicsouniumtab;
 import net.picsounium.ElementsPicsounium;
 
@@ -56,6 +57,23 @@ public class BlockAtriciumOre extends ElementsPicsounium.ModElement {
 		@Override
 		public boolean canSilkHarvest(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
 			return false;
+		}
+
+		@Override
+		public boolean removedByPlayer(IBlockState state, World world, BlockPos pos, EntityPlayer entity, boolean willHarvest) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureAtriciumOreBlockDestroyedByPlayer.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 	}
 }

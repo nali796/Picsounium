@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "picsouniuminarmor_head",
+    "textureHelmet": "picsounium_helmet",
     "enableBody": true,
-    "textureBody": "picsouniuminarmor_body",
+    "textureBody": "picsounium_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "picsouniuminarmor_leggings",
+    "textureLeggings": "picsounium_legging",
     "enableBoots": true,
-    "textureBoots": "picsouniuminarmor_boots",
+    "textureBoots": "picsounium_boots",
     "onHelmetTick": {
       "name": "PicsouniumArmorHelmetTickEvent"
     },

@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = Picsounium.MODID, version = Picsounium.VERSION)
 public class Picsounium {
 	public static final String MODID = "picsounium";
-	public static final String VERSION = "0.8.7.2";
+	public static final String VERSION = "0.8.7.3";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("picsounium:a");
 	@SidedProxy(clientSide = "net.picsounium.ClientProxyPicsounium", serverSide = "net.picsounium.ServerProxyPicsounium")
 	public static IProxyPicsounium proxy;
