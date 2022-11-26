@@ -3,7 +3,7 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "G",
-    "keyBindingName": "Sortillège switch",
+    "keyBindingName": "Changer De Sortillège",
     "onKeyPressed": {
       "name": "FOnKeyPressed"
     }
