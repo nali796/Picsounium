@@ -15,15 +15,21 @@ import net.picsounium.item.ItemLucky_Hat;
 import net.picsounium.item.ItemHammerTierI;
 import net.picsounium.item.ItemHAMmer;
 import net.picsounium.item.ItemDestructor_tier_iv;
+import net.picsounium.item.ItemCanabas;
+import net.picsounium.item.ItemBanana_shovel;
 import net.picsounium.item.ItemBadBoomerang;
+import net.picsounium.item.ItemAtriciumingot;
 import net.picsounium.item.ItemAtriciumNugget;
 import net.picsounium.block.BlockTrophee;
 import net.picsounium.block.BlockTitaniumLuckyblock;
 import net.picsounium.block.BlockSpecial_Lucky_Block;
 import net.picsounium.block.BlockSablingsplingeul;
 import net.picsounium.block.BlockPicsounium_Luckyblock;
+import net.picsounium.block.BlockOrium_Spike;
 import net.picsounium.block.BlockOrium_Lucky_Block;
+import net.picsounium.block.BlockFaction_Lucky_Block;
 import net.picsounium.block.BlockCaveGlass;
+import net.picsounium.block.BlockBamboo;
 import net.picsounium.block.BlockAtricium_lucky_block;
 import net.picsounium.ElementsPicsounium;
 
@@ -570,8 +576,7 @@ public class ProcedureLuckyblockprocess extends ElementsPicsounium.ModElement {
 								}
 							} else {
 								if (!world.isRemote) {
-									EntityItem entityToSpawn = new EntityItem(world, x, y, z,
-											new ItemStack(BlockSpecial_Lucky_Block.block, (int) (1)));
+									EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(BlockOrium_Spike.block, (int) (1)));
 									entityToSpawn.setPickupDelay(10);
 									world.spawnEntity(entityToSpawn);
 								}
@@ -760,6 +765,161 @@ public class ProcedureLuckyblockprocess extends ElementsPicsounium.ModElement {
 					}
 				}
 			} else {
+				if (!world.isRemote) {
+					world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 2));
+				}
+			}
+			if (world instanceof WorldServer)
+				((WorldServer) world).spawnParticle(EnumParticleTypes.FIREWORKS_SPARK, x, y, z, (int) 2569, 3, 3, 3, 1, new int[0]);
+			world.setBlockToAir(new BlockPos((int) x, (int) y, (int) z));
+		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == BlockFaction_Lucky_Block.block.getDefaultState()
+				.getBlock())) {
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).closeScreen();
+			if ((Math.random() < 0.8)) {
+				if ((Math.random() < 0.7)) {
+					if ((Math.random() < 0.67)) {
+						if ((Math.random() < 0.52)) {
+							if ((Math.random() < 0.34)) {
+								if ((Math.random() < 0.25)) {
+									if ((Math.random() < 0.2)) {
+										if ((Math.random() < 0.15)) {
+											if (!world.isRemote) {
+												EntityItem entityToSpawn = new EntityItem(world, x, y, z,
+														new ItemStack(ItemAtriciumingot.block, (int) (1)));
+												entityToSpawn.setPickupDelay(10);
+												world.spawnEntity(entityToSpawn);
+											}
+											if (!world.isRemote) {
+												world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 5));
+											}
+										} else {
+											world.addWeatherEffect(new EntityLightningBolt(world, (int) x, (int) y, (int) z, false));
+											if (!world.isRemote) {
+												EntityItem entityToSpawn = new EntityItem(world, x, y, z,
+														new ItemStack(BlockFaction_Lucky_Block.block, (int) (1)));
+												entityToSpawn.setPickupDelay(10);
+												world.spawnEntity(entityToSpawn);
+											}
+											if (!world.isRemote) {
+												world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 5));
+											}
+										}
+									} else {
+										if (!world.isRemote) {
+											EntityItem entityToSpawn = new EntityItem(world, x, y, z,
+													new ItemStack(ItemBanana_shovel.block, (int) (1)));
+											entityToSpawn.setPickupDelay(10);
+											world.spawnEntity(entityToSpawn);
+										}
+										if (!world.isRemote) {
+											world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 5));
+										}
+									}
+								} else {
+									if (!world.isRemote) {
+										EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemMoney.block, (int) (1)));
+										entityToSpawn.setPickupDelay(10);
+										world.spawnEntity(entityToSpawn);
+									}
+									if (!world.isRemote) {
+										EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemMoney.block, (int) (1)));
+										entityToSpawn.setPickupDelay(10);
+										world.spawnEntity(entityToSpawn);
+									}
+									if (!world.isRemote) {
+										EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemMoney.block, (int) (1)));
+										entityToSpawn.setPickupDelay(10);
+										world.spawnEntity(entityToSpawn);
+									}
+									if (!world.isRemote) {
+										EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemMoney.block, (int) (1)));
+										entityToSpawn.setPickupDelay(10);
+										world.spawnEntity(entityToSpawn);
+									}
+									if (!world.isRemote) {
+										EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemMoney.block, (int) (1)));
+										entityToSpawn.setPickupDelay(10);
+										world.spawnEntity(entityToSpawn);
+									}
+									if (!world.isRemote) {
+										world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 5));
+									}
+								}
+							} else {
+								if (!world.isRemote) {
+									EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(BlockBamboo.block, (int) (1)));
+									entityToSpawn.setPickupDelay(10);
+									world.spawnEntity(entityToSpawn);
+								}
+								if (!world.isRemote) {
+									EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(BlockBamboo.block, (int) (1)));
+									entityToSpawn.setPickupDelay(10);
+									world.spawnEntity(entityToSpawn);
+								}
+								if (!world.isRemote) {
+									EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(BlockBamboo.block, (int) (1)));
+									entityToSpawn.setPickupDelay(10);
+									world.spawnEntity(entityToSpawn);
+								}
+								if (!world.isRemote) {
+									world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 5));
+								}
+							}
+						} else {
+							world.setBlockState(new BlockPos((int) x, (int) (y + 3), (int) z), BlockAtricium_lucky_block.block.getDefaultState(), 3);
+							world.setBlockState(new BlockPos((int) x, (int) (y + 2), (int) z), BlockAtricium_lucky_block.block.getDefaultState(), 3);
+							world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), BlockAtricium_lucky_block.block.getDefaultState(), 3);
+							if (!world.isRemote) {
+								world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 5));
+							}
+						}
+					} else {
+						if (!world.isRemote) {
+							EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemBadBoomerang.block, (int) (1)));
+							entityToSpawn.setPickupDelay(10);
+							world.spawnEntity(entityToSpawn);
+						}
+						if (!world.isRemote) {
+							world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 4));
+						}
+					}
+				} else {
+					if (!world.isRemote) {
+						EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemCanabas.block, (int) (1)));
+						entityToSpawn.setPickupDelay(10);
+						world.spawnEntity(entityToSpawn);
+					}
+					if (!world.isRemote) {
+						EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemCanabas.block, (int) (1)));
+						entityToSpawn.setPickupDelay(10);
+						world.spawnEntity(entityToSpawn);
+					}
+					if (!world.isRemote) {
+						EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemCanabas.block, (int) (1)));
+						entityToSpawn.setPickupDelay(10);
+						world.spawnEntity(entityToSpawn);
+					}
+					if (!world.isRemote) {
+						EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemCanabas.block, (int) (1)));
+						entityToSpawn.setPickupDelay(10);
+						world.spawnEntity(entityToSpawn);
+					}
+					if (!world.isRemote) {
+						EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemCanabas.block, (int) (1)));
+						entityToSpawn.setPickupDelay(10);
+						world.spawnEntity(entityToSpawn);
+					}
+					if (!world.isRemote) {
+						world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 3));
+					}
+				}
+			} else {
+				if (!world.isRemote) {
+					EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(ItemDestructor_tier_iv.block, (int) (1)));
+					entityToSpawn.setPickupDelay(10);
+					world.spawnEntity(entityToSpawn);
+				}
 				if (!world.isRemote) {
 					world.spawnEntity(new EntityXPOrb(world, x, y, z, (int) 2));
 				}

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "picsounium:blocks/orium_ore_2",
-    "up": "picsounium:blocks/orium_ore_2",
-    "north": "picsounium:blocks/orium_ore_2",
-    "east": "picsounium:blocks/orium_ore_2",
-    "south": "picsounium:blocks/orium_ore_2",
-    "west": "picsounium:blocks/orium_ore_2",
-    "particle": "picsounium:blocks/orium_ore_2"
+    "down": "picsounium:blocks/atricium_ore",
+    "up": "picsounium:blocks/atricium_ore",
+    "north": "picsounium:blocks/atricium_ore",
+    "east": "picsounium:blocks/atricium_ore",
+    "south": "picsounium:blocks/atricium_ore",
+    "west": "picsounium:blocks/atricium_ore",
+    "particle": "picsounium:blocks/atricium_ore"
   }
 }

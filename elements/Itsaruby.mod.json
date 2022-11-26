@@ -8,7 +8,7 @@
       "value": "CUSTOM:Ruby"
     },
     "background": "Default",
-    "disableDisplay": true,
+    "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
     "hideIfNotCompleted": true,

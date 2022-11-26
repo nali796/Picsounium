@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "test_head",
+    "textureHelmet": "titanium_chestplate",
     "enableBody": true,
-    "textureBody": "test_body",
+    "textureBody": "titanium_hestplate",
     "enableLeggings": true,
-    "textureLeggings": "test_leggings",
+    "textureLeggings": "titanium_leging",
     "enableBoots": true,
-    "textureBoots": "test_boots",
+    "textureBoots": "titanium_boots",
     "onBootsTick": {
       "name": "Titanium_boots_tick_update"
     },

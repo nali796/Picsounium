@@ -60,20 +60,20 @@ public class BlockAtriciumOre extends ElementsPicsounium.ModElement {
 		}
 
 		@Override
-		public boolean removedByPlayer(IBlockState state, World world, BlockPos pos, EntityPlayer entity, boolean willHarvest) {
-			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest);
+		public void onBlockClicked(World world, BlockPos pos, EntityPlayer entity) {
+			super.onBlockClicked(world, pos, entity);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				ProcedureAtriciumOreBlockDestroyedByPlayer.executeProcedure($_dependencies);
 			}
-			return retval;
 		}
 	}
 }

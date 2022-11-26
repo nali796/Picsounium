@@ -58,7 +58,7 @@ public class ItemLoupopo_hat extends ElementsPicsounium.ModElement {
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EntityEquipmentSlot slot, String type) {
-				return "picsounium:textures/loupopo_hat_layer_1.png";
+				return "picsounium:textures/grand_partage_hat.png";
 			}
 
 			@Override

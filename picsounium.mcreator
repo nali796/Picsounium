@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 20,
-    "GUI": 9
+    "GUI": 9,
+    "ENTITY": 20
   },
   "mod_elements": [
     {
@@ -1733,22 +1733,6 @@
       "ids": {}
     },
     {
-      "name": "Capelayer",
-      "type": "tab",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Cosmetiqueoverlay",
-      "type": "item",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Naligator_Hat",
       "type": "armor",
       "sortid": 94,
@@ -3191,30 +3175,6 @@
       "ids": {}
     },
     {
-      "name": "Compactedprismarine",
-      "type": "block",
-      "sortid": 292,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Compactedprismarinerecipe",
-      "type": "recipe",
-      "sortid": 293,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Serverrecipe",
-      "type": "recipe",
-      "sortid": 292,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Factionblock",
       "type": "block",
       "sortid": 294,
@@ -3340,6 +3300,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "int"
           },
@@ -3362,6 +3326,54 @@
       "name": "Itsaruby",
       "type": "achievement",
       "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TitaniumLuckyblockad",
+      "type": "achievement",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Picsounium_Lucky_Block",
+      "type": "achievement",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Orium_Lucky_block",
+      "type": "achievement",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Atricium_Lucky_BLock",
+      "type": "achievement",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Special_Lucky_BLock",
+      "type": "achievement",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Faction_Lucky_BLock",
+      "type": "achievement",
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3406,7 +3418,6 @@
       "tile.bounceblock.name": "Bounce block",
       "item.oriumdynamite.name": "Orium Dynamite",
       "advancements.atriciumhammerevent.title": "The Best Hammer",
-      "tile.compactedprismarine.name": "Compacted prismarine",
       "tile.faction_lucky_block.name": "Faction Lucky Block",
       "item.atriciumnugget.name": "Atricium Nugget",
       "key.mcreator.f": "Sortillège switch",
@@ -3421,16 +3432,18 @@
       "item.canabas.name": "Canabas",
       "item.magic_wand_3.name": "Magic Wand",
       "item.popitium.name": "Popitium",
+      "advancements.titaniumluckyblockad.descr": "First Titanium Lucky Block",
       "item.picsouniumstick.name": "Picsounium stick",
       "item.magic_wand_5.name": "Magic Wand",
       "tile.woodencrate.name": "Wooden Crate",
       "tile.lightblock2.name": "Lightblock2",
-      "tile.roadblock.name": "Road block",
       "item.titaniumarmorbody.name": "Titanium Body",
+      "tile.roadblock.name": "Road block",
       "item.sucrecuit.name": "Hot sugar",
       "item.titanium_pickaxe.name": "Titanium Pickaxe",
       "item.titaniumarmorhelmet.name": "Titanium Helmet",
       "advancements.agoodspeed.descr": "These boots appear to have been attached to their leggings to provide that quickness of movement",
+      "advancements.titaniumluckyblockad.title": "Titanium Lucky Block",
       "item.oriumstick.name": "Orium stick",
       "advancements.the_best_storage.title": "The Best Storage?",
       "item.destructortieri.name": "Destructor Tier I",
@@ -3440,9 +3453,9 @@
       "advancements.whataham.descr": "Oh no it\u0027s a HAMmer",
       "item.atriciumhoe.name": "Atricium Hoe",
       "item.picsou06_hatboots.name": "Cape Boots",
-      "item.dynamitefire.name": "Dynamitefire",
-      "item.lucky_hatbody.name": "Chapeau de naligator",
       "tile.decoserv.name": "Server",
+      "item.lucky_hatbody.name": "Chapeau de naligator",
+      "item.dynamitefire.name": "Dynamitefire",
       "item.noelhathelmet.name": "Chapeau de Noël",
       "advancements.picsouniumadvance.descr": "You have mined your first picsounium ore",
       "item.atricium_axe.name": "Atricium Axe",
@@ -3466,6 +3479,7 @@
       "item.oriumhelmet.name": "Orium Helmet",
       "itemGroup.tabcreativeitem": "Creative Item",
       "item.picsouniumarmorbody.name": "Picsounium Body",
+      "advancements.atricium_lucky_block.title": "Atricium Lucky Block",
       "advancements.noel_hat.title": "Boo",
       "item.oriumaxe.name": "Orium Axe",
       "advancements.itsaruby.descr": "Beatifull ruby",
@@ -3477,6 +3491,7 @@
       "item.atriciumarmorboots.name": "Atricium Boots",
       "item.picsouniumdynafire.name": "Picsouniumdynafire",
       "advancements.thebestboom.descr": "You got hold of orium dynamites",
+      "advancements.faction_lucky_block.descr": "First Faction Lucky Block",
       "item.originel_hatbody.name": "Chapeau de naligator",
       "item.picsounium_opickaxe.name": "Picsounium Pickaxe",
       "tile.phantom.name": "Phantom",
@@ -3494,7 +3509,9 @@
       "item.magic_wand_1.name": "Magic Wand",
       "advancements.a_better_storage.descr": "You crafted an iron crate",
       "tile.plingeulleaves.name": "Plingeul Leaves",
+      "advancements.picsounium_lucky_block.descr": "First Picsounium Lucky Block",
       "itemGroup.tabpicsouniumtab": "Picsounium",
+      "advancements.orium_lucky_block.title": "Orium Lucky Block",
       "item.dynamite.name": "Dynamite",
       "advancements.agoodsword.descr": "This sword is much better and powerful than diamond",
       "item.picsou06_hathelmet.name": "Chapeau de Picsou06",
@@ -3531,6 +3548,7 @@
       "advancements.agoodvision.title": "A Good Vision",
       "item.oriumpickaxe.name": "Orium Pickaxe",
       "tile.iron_crate.name": "Iron Crate",
+      "advancements.special_lucky_block.title": "Special Lucky Block",
       "advancements.abetterhammer.title": "A Better Hammer",
       "advancements.oriumingotadvance.descr": "I see that you followed my advice to get rich ",
       "item.picsouniumarmorhelmet.name": "Picsounium Helmet",
@@ -3553,7 +3571,6 @@
       "item.naligator_hathelmet.name": "Chapeau de naligator",
       "tile.titaniumblock.name": "Titanium Block",
       "advancements.agoodvision.descr": "This helmet seems to emanate from an ancient magic giving it this luminous effect in the dark",
-      "item.cosmetiqueoverlay.name": "Cosmetiqueoverlay",
       "advancements.whatsuckingsword.title": "What Fucking Sword",
       "advancements.noel_hat.descr": "You participated in the Halloween 2022 event",
       "item.beta_hatbody.name": "Chapeau de naligator",
@@ -3578,6 +3595,7 @@
       "tile.oriumblock.name": "Orium block",
       "item.titanium_axe.name": "Titanium Axe",
       "tile.nitiumore.name": "Nitium Ore",
+      "advancements.orium_lucky_block.descr": "First Orium Lucky Block",
       "item.originel_hathelmet.name": "Chapeau Originel",
       "item.wandparticule.name": "plingeulia",
       "advancements.anexcellentsword.title": "An Excellent Sword",
@@ -3592,11 +3610,14 @@
       "tile.titaniumluckyblock.name": "Titanium Lucky Block",
       "advancements.oriumadvance.descr": "Transformer ces nugget en lingot et on verra qui est le plus riche de ce monde",
       "item.ruby.name": "Ruby",
+      "advancements.special_lucky_block.descr": "First Special Lucky Block",
       "item.badboomerangtexture.name": "Badboomerangtexture",
       "item.atriciumstick.name": "Atricium stick",
       "advancements.agoodspeed.title": "A Good Speed",
       "advancements.whatsuckingsword.descr": "You are officially the most powerful player",
+      "advancements.faction_lucky_block.title": "Faction Lucky Block",
       "item.loupopo_hat_censoredboots.name": "Cape Boots",
+      "advancements.picsounium_lucky_block.title": "Picsounium Lucky Block",
       "item.light.name": "Light",
       "advancements.atriciumhammerevent.descr": "You own an Atricium Hammer",
       "advancements.oriumingotadvance.title": "The wealth ?",
@@ -3605,7 +3626,7 @@
       "advancements.thebestboom.title": "The Best Boom",
       "item.atricium_hammer.name": "Atricium Hammer",
       "item.picsouniumdynamite.name": "Picsounium Dynamite",
-      "itemGroup.tabcapelayer": "cosmétique",
+      "advancements.atricium_lucky_block.descr": "First Atricium Lucky Block",
       "item.magic_wand_4.name": "Magic Wand",
       "advancements.magic.descr": "You have learned to wield magic...",
       "item.noelhatlegs.name": "Cape Leggings",
@@ -3615,7 +3636,7 @@
   "workspaceSettings": {
     "modid": "picsounium",
     "modName": "Picsounium",
-    "version": "0.8.7.3",
+    "version": "0.8.8.1",
     "description": "Picsounium is a faction pvp server mod",
     "author": "naligator",
     "websiteURL": "https://www.curseforge.com/members/nali796/projects",

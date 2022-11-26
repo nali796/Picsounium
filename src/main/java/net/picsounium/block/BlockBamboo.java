@@ -15,6 +15,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.world.World;
 import net.minecraft.world.Explosion;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
@@ -56,6 +57,12 @@ public class BlockBamboo extends ElementsPicsounium.ModElement {
 			setLightOpacity(0);
 			setCreativeTab(TabPicsouniumtab.tab);
 			setTickRandomly(true);
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public BlockRenderLayer getBlockLayer() {
+			return BlockRenderLayer.CUTOUT;
 		}
 
 		@Override

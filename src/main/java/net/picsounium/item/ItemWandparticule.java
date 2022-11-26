@@ -36,7 +36,7 @@ public class ItemWandparticule extends ElementsPicsounium.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
-			maxStackSize = 0;
+			maxStackSize = 5;
 			setUnlocalizedName("wandparticule");
 			setRegistryName("wandparticule");
 			setCreativeTab(TabPicsouniumtab.tab);
