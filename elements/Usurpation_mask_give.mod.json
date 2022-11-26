@@ -1,0 +1,10 @@
+{
+  "_fv": 6,
+  "_type": "command",
+  "definition": {
+    "commandName": "x6drmc12s5zs1h6knlt8",
+    "onCommandExecuted": {
+      "name": "Usurpa_mask_give"
+    }
+  }
+}

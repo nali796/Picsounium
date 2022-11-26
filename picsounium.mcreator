@@ -3377,6 +3377,82 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Junglemask",
+      "type": "armor",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Jungle_mask_give",
+      "type": "procedure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Junglemaskcommand",
+      "type": "command",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Usurpation_mask",
+      "type": "armor",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "eb": false,
+        "ec": false,
+        "el": false
+      }
+    },
+    {
+      "name": "Usurpa_mask_give",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usurpation_mask_give",
+      "type": "command",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3461,6 +3537,8 @@
       "item.atricium_axe.name": "Atricium Axe",
       "item.picsouniumapple.name": "Picsounium apple",
       "tile.titaniumore.name": "Titanium Ore",
+      "item.usurpation_masklegs.name": "Junglemask Leggings",
+      "item.junglemaskbody.name": "Junglemask Body",
       "tile.sablingsplingeul.name": "Sablings plingeul",
       "advancements.voldemort.descr": "Lord Voldemort magic wand",
       "item.picsouniumingot.name": "Picsounium ingot",
@@ -3485,6 +3563,7 @@
       "advancements.itsaruby.descr": "Beatifull ruby",
       "item.magic_wand_6.name": "Magic Wand",
       "item.oriumlegs.name": "Orium Leggings",
+      "item.junglemasklegs.name": "Junglemask Leggings",
       "advancements.letitane.title": "The age of titanium",
       "item.originel_hatboots.name": "Cape Boots",
       "advancements.agoodstorage.title": "A good storage",
@@ -3494,6 +3573,7 @@
       "advancements.faction_lucky_block.descr": "First Faction Lucky Block",
       "item.originel_hatbody.name": "Chapeau de naligator",
       "item.picsounium_opickaxe.name": "Picsounium Pickaxe",
+      "item.usurpation_maskboots.name": "Junglemask Boots",
       "tile.phantom.name": "Phantom",
       "advancements.magic.title": "Mr Potter",
       "item.lucky_hatlegs.name": "Cape Leggings",
@@ -3505,6 +3585,7 @@
       "advancements.the_best_storage.descr": "You crafted a titanium crate",
       "item.picsouniumarmorlegs.name": "Picsounium Leggings",
       "advancements.oriumadvance.title": "The beginning of fortune",
+      "item.junglemaskhelmet.name": "Jungle mask",
       "item.halloween_hathelmet.name": "Chapeau de Halloween",
       "item.magic_wand_1.name": "Magic Wand",
       "advancements.a_better_storage.descr": "You crafted an iron crate",
@@ -3525,6 +3606,7 @@
       "advancements.atriciumarmoradvance.title": "ATRICIUM CHESTPLATE",
       "advancements.thebetshammer.title": "A Very Best Hammer",
       "item.picsou06_hatlegs.name": "Cape Leggings",
+      "item.usurpation_maskbody.name": "Junglemask Body",
       "item.beta_hatboots.name": "Cape Boots",
       "advancements.banana.descr": "What? A Banana Shovel",
       "advancements.whynotuseahammer.title": "Why not use a hammer",
@@ -3537,6 +3619,7 @@
       "item.destructor_tier_iv.name": "Destructor Tier IV",
       "item.hammer.name": "HAMmer",
       "item.open_hatbody.name": "Chapeau de naligator",
+      "item.usurpation_maskhelmet.name": "Usurpation mask",
       "advancements.picsouniumadvance.title": "The age of Picsounium",
       "tile.titaniumspike.name": "Titanium Spike",
       "item.picsounium_hammer.name": "Picsounium Hammer",
@@ -3614,6 +3697,7 @@
       "item.badboomerangtexture.name": "Badboomerangtexture",
       "item.atriciumstick.name": "Atricium stick",
       "advancements.agoodspeed.title": "A Good Speed",
+      "item.junglemaskboots.name": "Junglemask Boots",
       "advancements.whatsuckingsword.descr": "You are officially the most powerful player",
       "advancements.faction_lucky_block.title": "Faction Lucky Block",
       "item.loupopo_hat_censoredboots.name": "Cape Boots",
