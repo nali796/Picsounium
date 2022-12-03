@@ -5,6 +5,12 @@
         "0": "bamboo"
       },
       "name": "default"
+    },
+    "dead_bamboo": {
+      "map": {
+        "0": "dead_bamboo"
+      },
+      "name": "dead_bamboo"
     }
   }
 }

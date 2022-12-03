@@ -3433,6 +3433,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Dead_bamboo",
+      "type": "block",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3477,6 +3485,7 @@
       "item.atriciumnugget.name": "Atricium Nugget",
       "key.mcreator.f": "Changer De Sortillège",
       "item.bad_magic_wand.name": "Bad Magic Wand",
+      "tile.dead_bamboo.name": "Bamboo",
       "item.lucky_hatboots.name": "Cape Boots",
       "item.titanium_shovel.name": "Titanium Shovel",
       "item.badboomerang.name": "Bad Boomerang",

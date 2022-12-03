@@ -2,14 +2,14 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "bamboo",
+    "texture": "dead_bamboo",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "bamboo:default",
+    "customModelName": "bamboo:dead_bamboo",
     "rotationMode": 0,
     "hasTransparency": true,
     "transparencyType": "CUTOUT",
@@ -77,9 +77,6 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "onTickUpdate": {
-      "name": "BambooUpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

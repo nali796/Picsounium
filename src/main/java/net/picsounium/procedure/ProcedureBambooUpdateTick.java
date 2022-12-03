@@ -1,5 +1,6 @@
 package net.picsounium.procedure;
 
+import net.picsounium.block.BlockDead_bamboo;
 import net.picsounium.block.BlockBamboo;
 import net.picsounium.ElementsPicsounium;
 
@@ -34,13 +35,22 @@ public class ProcedureBambooUpdateTick extends ElementsPicsounium.ModElement {
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if ((((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.GRASS.getDefaultState().getBlock())
-				|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == BlockBamboo.block.getDefaultState()
-						.getBlock()))) {
+		if ((Math.random() < 0.85)) {
+			if ((((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.GRASS.getDefaultState().getBlock())
+					|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == BlockBamboo.block.getDefaultState()
+							.getBlock()))) {
+				if ((((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock())
+						&& (!((world.getBlockState(new BlockPos((int) x, (int) (y - 6), (int) z))).getBlock() == Blocks.GRASS.getDefaultState()
+								.getBlock())))) {
+					world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), BlockBamboo.block.getDefaultState(), 3);
+				}
+			}
+		} else {
 			if ((((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock())
-					&& (!((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) z))).getBlock() == BlockBamboo.block.getDefaultState()
-							.getBlock())))) {
-				world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), BlockBamboo.block.getDefaultState(), 3);
+					&& (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.GRASS.getDefaultState().getBlock())
+							|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == BlockBamboo.block.getDefaultState()
+									.getBlock())))) {
+				world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), BlockDead_bamboo.block.getDefaultState(), 3);
 			}
 		}
 	}

@@ -1,7 +1,6 @@
 
 package net.picsounium.block;
 
-import net.picsounium.procedure.ProcedureBambooUpdateTick;
 import net.picsounium.creativetab.TabPicsouniumtab;
 import net.picsounium.ElementsPicsounium;
 
@@ -27,31 +26,29 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockFalling;
 import net.minecraft.block.Block;
 
-import java.util.Random;
-
 @ElementsPicsounium.ModElement.Tag
-public class BlockBamboo extends ElementsPicsounium.ModElement {
-	@GameRegistry.ObjectHolder("picsounium:bamboo")
+public class BlockDead_bamboo extends ElementsPicsounium.ModElement {
+	@GameRegistry.ObjectHolder("picsounium:dead_bamboo")
 	public static final Block block = null;
-	public BlockBamboo(ElementsPicsounium instance) {
-		super(instance, 12);
+	public BlockDead_bamboo(ElementsPicsounium instance) {
+		super(instance, 313);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("bamboo"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("dead_bamboo"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("picsounium:bamboo", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("picsounium:dead_bamboo", "inventory"));
 	}
 	public static class BlockCustom extends BlockFalling {
 		public BlockCustom() {
 			super(Material.PLANTS);
-			setUnlocalizedName("bamboo");
+			setUnlocalizedName("dead_bamboo");
 			setSoundType(SoundType.GROUND);
 			setHardness(0.65F);
 			setResistance(0.5F);
@@ -89,32 +86,6 @@ public class BlockBamboo extends ElementsPicsounium.ModElement {
 		@Override
 		public BlockFaceShape getBlockFaceShape(IBlockAccess world, IBlockState state, BlockPos pos, EnumFacing face) {
 			return BlockFaceShape.UNDEFINED;
-		}
-
-		@Override
-		public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
-			super.onBlockAdded(world, pos, state);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
-		}
-
-		@Override
-		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
-			super.updateTick(world, pos, state, random);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedureBambooUpdateTick.executeProcedure($_dependencies);
-			}
-			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 	}
 }
