@@ -14,7 +14,7 @@ import net.minecraft.block.properties.IProperty;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureBounceblockEntityWalksOnTheBlock extends ElementsPicsounium.ModElement {
 	public ProcedureBounceblockEntityWalksOnTheBlock(ElementsPicsounium instance) {
-		super(instance, 147);
+		super(instance, 141);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

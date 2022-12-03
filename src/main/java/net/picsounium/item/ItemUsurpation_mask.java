@@ -37,7 +37,7 @@ public class ItemUsurpation_mask extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:usurpation_maskboots")
 	public static final Item boots = null;
 	public ItemUsurpation_mask(ElementsPicsounium instance) {
-		super(instance, 310);
+		super(instance, 309);
 	}
 
 	@Override

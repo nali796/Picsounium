@@ -13,7 +13,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureTitanium_boots_tick_update extends ElementsPicsounium.ModElement {
 	public ProcedureTitanium_boots_tick_update(ElementsPicsounium instance) {
-		super(instance, 192);
+		super(instance, 186);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

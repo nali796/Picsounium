@@ -8,7 +8,7 @@ import net.minecraft.entity.effect.EntityLightningBolt;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureLigtning0 extends ElementsPicsounium.ModElement {
 	public ProcedureLigtning0(ElementsPicsounium instance) {
-		super(instance, 227);
+		super(instance, 225);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

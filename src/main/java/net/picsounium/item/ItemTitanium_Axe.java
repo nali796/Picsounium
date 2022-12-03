@@ -27,7 +27,7 @@ public class ItemTitanium_Axe extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:titanium_axe")
 	public static final Item block = null;
 	public ItemTitanium_Axe(ElementsPicsounium instance) {
-		super(instance, 29);
+		super(instance, 32);
 	}
 
 	@Override

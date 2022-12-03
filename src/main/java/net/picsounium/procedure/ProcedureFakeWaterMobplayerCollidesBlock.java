@@ -8,7 +8,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureFakeWaterMobplayerCollidesBlock extends ElementsPicsounium.ModElement {
 	public ProcedureFakeWaterMobplayerCollidesBlock(ElementsPicsounium instance) {
-		super(instance, 146);
+		super(instance, 140);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

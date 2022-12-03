@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "picsounium:faction_lucky_block_double"
+    }
+  }
+}

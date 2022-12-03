@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @ElementsPicsounium.ModElement.Tag
 public class CommandLoupopohat extends ElementsPicsounium.ModElement {
 	public CommandLoupopohat(ElementsPicsounium instance) {
-		super(instance, 278);
+		super(instance, 283);
 	}
 
 	@Override

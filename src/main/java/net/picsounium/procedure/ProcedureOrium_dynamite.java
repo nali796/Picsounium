@@ -7,7 +7,7 @@ import net.minecraft.world.World;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureOrium_dynamite extends ElementsPicsounium.ModElement {
 	public ProcedureOrium_dynamite(ElementsPicsounium instance) {
-		super(instance, 140);
+		super(instance, 134);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

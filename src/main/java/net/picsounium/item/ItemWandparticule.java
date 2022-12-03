@@ -20,7 +20,7 @@ public class ItemWandparticule extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:wandparticule")
 	public static final Item block = null;
 	public ItemWandparticule(ElementsPicsounium instance) {
-		super(instance, 83);
+		super(instance, 86);
 	}
 
 	@Override

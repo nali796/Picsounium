@@ -24,7 +24,7 @@ public class ItemNitium extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:nitium")
 	public static final Item block = null;
 	public ItemNitium(ElementsPicsounium instance) {
-		super(instance, 65);
+		super(instance, 68);
 	}
 
 	@Override

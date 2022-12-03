@@ -8,7 +8,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureAtriciumHammerBlockDestroyedWithTool extends ElementsPicsounium.ModElement {
 	public ProcedureAtriciumHammerBlockDestroyedWithTool(ElementsPicsounium instance) {
-		super(instance, 264);
+		super(instance, 269);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

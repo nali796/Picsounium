@@ -32,7 +32,7 @@ public class ItemOrium extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:oriumboots")
 	public static final Item boots = null;
 	public ItemOrium(ElementsPicsounium instance) {
-		super(instance, 46);
+		super(instance, 49);
 	}
 
 	@Override

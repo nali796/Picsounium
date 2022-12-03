@@ -44,7 +44,7 @@ public class BlockWoodenCrate extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:woodencrate")
 	public static final Block block = null;
 	public BlockWoodenCrate(ElementsPicsounium instance) {
-		super(instance, 7);
+		super(instance, 5);
 	}
 
 	@Override

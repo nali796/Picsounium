@@ -34,7 +34,7 @@ public class BlockTrophee extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:trophee")
 	public static final Block block = null;
 	public BlockTrophee(ElementsPicsounium instance) {
-		super(instance, 78);
+		super(instance, 81);
 	}
 
 	@Override

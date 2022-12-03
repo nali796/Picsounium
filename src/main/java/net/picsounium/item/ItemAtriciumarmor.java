@@ -34,7 +34,7 @@ public class ItemAtriciumarmor extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:atriciumarmorboots")
 	public static final Item boots = null;
 	public ItemAtriciumarmor(ElementsPicsounium instance) {
-		super(instance, 57);
+		super(instance, 60);
 	}
 
 	@Override

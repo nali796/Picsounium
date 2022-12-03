@@ -20,7 +20,7 @@ public class ItemSucrecuit extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:sucrecuit")
 	public static final Item block = null;
 	public ItemSucrecuit(ElementsPicsounium instance) {
-		super(instance, 86);
+		super(instance, 10);
 	}
 
 	@Override

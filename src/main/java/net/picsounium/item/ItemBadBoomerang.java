@@ -39,7 +39,7 @@ public class ItemBadBoomerang extends ElementsPicsounium.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 9;
 	public ItemBadBoomerang(ElementsPicsounium instance) {
-		super(instance, 80);
+		super(instance, 83);
 	}
 
 	@Override

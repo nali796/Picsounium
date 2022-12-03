@@ -14,7 +14,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureAtriciumOreBlockDestroyedByPlayer extends ElementsPicsounium.ModElement {
 	public ProcedureAtriciumOreBlockDestroyedByPlayer(ElementsPicsounium instance) {
-		super(instance, 300);
+		super(instance, 298);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

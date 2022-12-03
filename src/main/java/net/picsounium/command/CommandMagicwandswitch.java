@@ -17,7 +17,7 @@ import java.util.ArrayList;
 @ElementsPicsounium.ModElement.Tag
 public class CommandMagicwandswitch extends ElementsPicsounium.ModElement {
 	public CommandMagicwandswitch(ElementsPicsounium instance) {
-		super(instance, 214);
+		super(instance, 212);
 	}
 
 	@Override

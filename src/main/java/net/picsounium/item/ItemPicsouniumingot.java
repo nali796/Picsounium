@@ -24,7 +24,7 @@ public class ItemPicsouniumingot extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:picsouniumingot")
 	public static final Item block = null;
 	public ItemPicsouniumingot(ElementsPicsounium instance) {
-		super(instance, 32);
+		super(instance, 35);
 	}
 
 	@Override

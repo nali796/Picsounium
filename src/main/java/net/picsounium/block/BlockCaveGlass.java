@@ -23,7 +23,7 @@ public class BlockCaveGlass extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:caveglass")
 	public static final Block block = null;
 	public BlockCaveGlass(ElementsPicsounium instance) {
-		super(instance, 14);
+		super(instance, 17);
 	}
 
 	@Override

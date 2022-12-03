@@ -38,7 +38,7 @@ public class ProcedureBambooUpdateTick extends ElementsPicsounium.ModElement {
 				|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == BlockBamboo.block.getDefaultState()
 						.getBlock()))) {
 			if ((((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock())
-					&& (!((world.getBlockState(new BlockPos((int) x, (int) (y - 3), (int) z))).getBlock() == BlockBamboo.block.getDefaultState()
+					&& (!((world.getBlockState(new BlockPos((int) x, (int) (y - 15), (int) z))).getBlock() == BlockBamboo.block.getDefaultState()
 							.getBlock())))) {
 				world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), BlockBamboo.block.getDefaultState(), 3);
 			}

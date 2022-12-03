@@ -29,7 +29,7 @@ public class ItemPicsounium_hammer extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:picsounium_hammer")
 	public static final Item block = null;
 	public ItemPicsounium_hammer(ElementsPicsounium instance) {
-		super(instance, 38);
+		super(instance, 41);
 	}
 
 	@Override

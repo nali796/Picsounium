@@ -12,7 +12,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureJungle_mask_give extends ElementsPicsounium.ModElement {
 	public ProcedureJungle_mask_give(ElementsPicsounium instance) {
-		super(instance, 309);
+		super(instance, 307);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

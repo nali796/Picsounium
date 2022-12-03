@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bamboo",
+        "1": "bamboo_crate",
+        "missing": "bamboo"
+      },
+      "name": "default"
+    }
+  }
+}

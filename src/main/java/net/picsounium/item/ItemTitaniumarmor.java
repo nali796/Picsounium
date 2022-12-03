@@ -32,7 +32,7 @@ public class ItemTitaniumarmor extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:titaniumarmorboots")
 	public static final Item boots = null;
 	public ItemTitaniumarmor(ElementsPicsounium instance) {
-		super(instance, 25);
+		super(instance, 28);
 	}
 
 	@Override

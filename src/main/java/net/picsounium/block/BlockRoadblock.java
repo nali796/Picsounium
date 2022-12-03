@@ -22,7 +22,7 @@ public class BlockRoadblock extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:roadblock")
 	public static final Block block = null;
 	public BlockRoadblock(ElementsPicsounium instance) {
-		super(instance, 71);
+		super(instance, 74);
 	}
 
 	@Override

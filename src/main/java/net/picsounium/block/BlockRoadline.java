@@ -32,7 +32,7 @@ public class BlockRoadline extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:roadline")
 	public static final Block block = null;
 	public BlockRoadline(ElementsPicsounium instance) {
-		super(instance, 72);
+		super(instance, 75);
 	}
 
 	@Override

@@ -7,7 +7,7 @@ import net.minecraft.world.World;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureMagicWand2BulletHitsLivingEntity extends ElementsPicsounium.ModElement {
 	public ProcedureMagicWand2BulletHitsLivingEntity(ElementsPicsounium instance) {
-		super(instance, 218);
+		super(instance, 216);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -29,7 +29,7 @@ public class ItemHammerTierI extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:hammertieri")
 	public static final Item block = null;
 	public ItemHammerTierI(ElementsPicsounium instance) {
-		super(instance, 28);
+		super(instance, 31);
 	}
 
 	@Override

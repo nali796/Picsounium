@@ -31,7 +31,7 @@ public class BlockPlingeulLog extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:plingeullog")
 	public static final Block block = null;
 	public BlockPlingeulLog(ElementsPicsounium instance) {
-		super(instance, 16);
+		super(instance, 19);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class BlockOrium_Spike extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:orium_spike")
 	public static final Block block = null;
 	public BlockOrium_Spike(ElementsPicsounium instance) {
-		super(instance, 13);
+		super(instance, 16);
 	}
 
 	@Override

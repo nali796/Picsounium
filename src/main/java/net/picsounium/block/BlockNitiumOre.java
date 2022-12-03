@@ -31,7 +31,7 @@ public class BlockNitiumOre extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:nitiumore")
 	public static final Block block = null;
 	public BlockNitiumOre(ElementsPicsounium instance) {
-		super(instance, 64);
+		super(instance, 67);
 	}
 
 	@Override

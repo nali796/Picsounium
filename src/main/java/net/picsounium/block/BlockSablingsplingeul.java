@@ -30,7 +30,7 @@ public class BlockSablingsplingeul extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:sablingsplingeul")
 	public static final Block block = null;
 	public BlockSablingsplingeul(ElementsPicsounium instance) {
-		super(instance, 15);
+		super(instance, 18);
 	}
 
 	@Override

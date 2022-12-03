@@ -12,7 +12,7 @@ import net.minecraft.block.material.Material;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureOrium_shovel_process extends ElementsPicsounium.ModElement {
 	public ProcedureOrium_shovel_process(ElementsPicsounium instance) {
-		super(instance, 237);
+		super(instance, 239);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

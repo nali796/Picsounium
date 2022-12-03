@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @ElementsPicsounium.ModElement.Tag
 public class CommandUsurpation_mask_give extends ElementsPicsounium.ModElement {
 	public CommandUsurpation_mask_give(ElementsPicsounium instance) {
-		super(instance, 312);
+		super(instance, 311);
 	}
 
 	@Override

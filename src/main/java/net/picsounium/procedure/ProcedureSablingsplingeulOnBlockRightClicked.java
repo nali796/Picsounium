@@ -13,7 +13,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureSablingsplingeulOnBlockRightClicked extends ElementsPicsounium.ModElement {
 	public ProcedureSablingsplingeulOnBlockRightClicked(ElementsPicsounium instance) {
-		super(instance, 174);
+		super(instance, 168);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

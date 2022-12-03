@@ -38,7 +38,7 @@ public class GuiTitaniumCrategui extends ElementsPicsounium.ModElement {
 	public static int GUIID = 3;
 	public static HashMap guistate = new HashMap();
 	public GuiTitaniumCrategui(ElementsPicsounium instance) {
-		super(instance, 111);
+		super(instance, 105);
 	}
 
 	@Override

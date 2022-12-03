@@ -37,7 +37,7 @@ public class ItemOriginel_Hat extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:originel_hatboots")
 	public static final Item boots = null;
 	public ItemOriginel_Hat(ElementsPicsounium instance) {
-		super(instance, 96);
+		super(instance, 206);
 	}
 
 	@Override

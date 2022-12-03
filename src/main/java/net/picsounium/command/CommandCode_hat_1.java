@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @ElementsPicsounium.ModElement.Tag
 public class CommandCode_hat_1 extends ElementsPicsounium.ModElement {
 	public CommandCode_hat_1(ElementsPicsounium instance) {
-		super(instance, 267);
+		super(instance, 272);
 	}
 
 	@Override

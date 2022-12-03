@@ -7,7 +7,7 @@
     "textureLeft": "server_side",
     "textureFront": "server_face_on",
     "textureRight": "server_side",
-    "textureBack": "server_face",
+    "textureBack": "server_side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,

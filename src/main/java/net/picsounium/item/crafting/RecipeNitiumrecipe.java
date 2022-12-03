@@ -13,7 +13,7 @@ import net.minecraft.item.ItemStack;
 @ElementsPicsounium.ModElement.Tag
 public class RecipeNitiumrecipe extends ElementsPicsounium.ModElement {
 	public RecipeNitiumrecipe(ElementsPicsounium instance) {
-		super(instance, 288);
+		super(instance, 293);
 	}
 
 	@Override

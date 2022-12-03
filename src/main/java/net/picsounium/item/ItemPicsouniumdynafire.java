@@ -20,7 +20,7 @@ public class ItemPicsouniumdynafire extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:picsouniumdynafire")
 	public static final Item block = null;
 	public ItemPicsouniumdynafire(ElementsPicsounium instance) {
-		super(instance, 88);
+		super(instance, 91);
 	}
 
 	@Override

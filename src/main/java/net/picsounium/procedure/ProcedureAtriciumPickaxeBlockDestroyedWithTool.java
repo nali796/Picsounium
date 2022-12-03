@@ -23,7 +23,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureAtriciumPickaxeBlockDestroyedWithTool extends ElementsPicsounium.ModElement {
 	public ProcedureAtriciumPickaxeBlockDestroyedWithTool(ElementsPicsounium instance) {
-		super(instance, 263);
+		super(instance, 268);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

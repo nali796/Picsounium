@@ -8,7 +8,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureTitaniumBlockEntityWalksOnTheBlock extends ElementsPicsounium.ModElement {
 	public ProcedureTitaniumBlockEntityWalksOnTheBlock(ElementsPicsounium instance) {
-		super(instance, 113);
+		super(instance, 107);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -38,7 +38,7 @@ public class BlockServer extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:server")
 	public static final Block block = null;
 	public BlockServer(ElementsPicsounium instance) {
-		super(instance, 290);
+		super(instance, 88);
 	}
 
 	@Override

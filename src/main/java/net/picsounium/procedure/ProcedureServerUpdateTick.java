@@ -10,7 +10,7 @@ import net.minecraft.entity.player.EntityPlayer;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureServerUpdateTick extends ElementsPicsounium.ModElement {
 	public ProcedureServerUpdateTick(ElementsPicsounium instance) {
-		super(instance, 298);
+		super(instance, 297);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

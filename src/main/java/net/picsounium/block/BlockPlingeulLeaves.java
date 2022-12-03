@@ -23,7 +23,7 @@ public class BlockPlingeulLeaves extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:plingeulleaves")
 	public static final Block block = null;
 	public BlockPlingeulLeaves(ElementsPicsounium instance) {
-		super(instance, 17);
+		super(instance, 20);
 	}
 
 	@Override

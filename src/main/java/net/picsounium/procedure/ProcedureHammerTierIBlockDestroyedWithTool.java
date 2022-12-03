@@ -12,7 +12,7 @@ import net.minecraft.block.material.Material;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureHammerTierIBlockDestroyedWithTool extends ElementsPicsounium.ModElement {
 	public ProcedureHammerTierIBlockDestroyedWithTool(ElementsPicsounium instance) {
-		super(instance, 120);
+		super(instance, 114);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

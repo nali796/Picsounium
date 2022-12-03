@@ -24,7 +24,7 @@ public class ItemDestructor_tier_iv extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:destructor_tier_iv")
 	public static final Item block = null;
 	public ItemDestructor_tier_iv(ElementsPicsounium instance) {
-		super(instance, 21);
+		super(instance, 24);
 	}
 
 	@Override

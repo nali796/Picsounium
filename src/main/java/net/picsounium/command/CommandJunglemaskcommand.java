@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @ElementsPicsounium.ModElement.Tag
 public class CommandJunglemaskcommand extends ElementsPicsounium.ModElement {
 	public CommandJunglemaskcommand(ElementsPicsounium instance) {
-		super(instance, 309);
+		super(instance, 308);
 	}
 
 	@Override

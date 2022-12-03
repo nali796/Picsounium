@@ -24,7 +24,7 @@
     "specialInfo": [],
     "hardness": 0.65,
     "resistance": 0.5,
-    "hasGravity": false,
+    "hasGravity": true,
     "creativeTab": {
       "value": "CUSTOM:Picsouniumtab"
     },
@@ -79,12 +79,6 @@
     "inventoryOutSlotIDs": [],
     "onTickUpdate": {
       "name": "BambooUpdateTick"
-    },
-    "onDestroyedByPlayer": {
-      "name": "BambooBlockDestroyedByPlayer"
-    },
-    "onDestroyedByExplosion": {
-      "name": "BambooBlockDestroyedByPlayer"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -20,7 +20,7 @@ public class ItemPopitium extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:popitium")
 	public static final Item block = null;
 	public ItemPopitium(ElementsPicsounium instance) {
-		super(instance, 75);
+		super(instance, 78);
 	}
 
 	@Override

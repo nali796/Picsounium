@@ -22,7 +22,7 @@ import java.util.Random;
 @ElementsPicsounium.ModElement.Tag
 public class StructurePlingueltree extends ElementsPicsounium.ModElement {
 	public StructurePlingueltree(ElementsPicsounium instance) {
-		super(instance, 238);
+		super(instance, 242);
 	}
 
 	@Override

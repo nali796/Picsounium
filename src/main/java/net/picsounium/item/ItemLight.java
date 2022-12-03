@@ -20,7 +20,7 @@ public class ItemLight extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:light")
 	public static final Item block = null;
 	public ItemLight(ElementsPicsounium instance) {
-		super(instance, 92);
+		super(instance, 95);
 	}
 
 	@Override

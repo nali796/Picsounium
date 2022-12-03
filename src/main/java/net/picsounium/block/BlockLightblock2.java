@@ -33,7 +33,7 @@ public class BlockLightblock2 extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:lightblock2")
 	public static final Block block = null;
 	public BlockLightblock2(ElementsPicsounium instance) {
-		super(instance, 186);
+		super(instance, 180);
 	}
 
 	@Override

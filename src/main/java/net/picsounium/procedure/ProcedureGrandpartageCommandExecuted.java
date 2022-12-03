@@ -12,7 +12,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureGrandpartageCommandExecuted extends ElementsPicsounium.ModElement {
 	public ProcedureGrandpartageCommandExecuted(ElementsPicsounium instance) {
-		super(instance, 279);
+		super(instance, 284);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

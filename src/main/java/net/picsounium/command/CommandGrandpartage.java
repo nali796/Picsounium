@@ -22,7 +22,7 @@ import java.util.ArrayList;
 @ElementsPicsounium.ModElement.Tag
 public class CommandGrandpartage extends ElementsPicsounium.ModElement {
 	public CommandGrandpartage(ElementsPicsounium instance) {
-		super(instance, 280);
+		super(instance, 285);
 	}
 
 	@Override

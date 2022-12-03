@@ -11,7 +11,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureXpbubblesRightClickedInAir extends ElementsPicsounium.ModElement {
 	public ProcedureXpbubblesRightClickedInAir(ElementsPicsounium instance) {
-		super(instance, 201);
+		super(instance, 196);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

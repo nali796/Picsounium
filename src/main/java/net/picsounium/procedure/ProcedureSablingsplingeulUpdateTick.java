@@ -8,7 +8,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureSablingsplingeulUpdateTick extends ElementsPicsounium.ModElement {
 	public ProcedureSablingsplingeulUpdateTick(ElementsPicsounium instance) {
-		super(instance, 175);
+		super(instance, 169);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -24,7 +24,7 @@ public class ItemPicsounium_oShovel extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:picsounium_oshovel")
 	public static final Item block = null;
 	public ItemPicsounium_oShovel(ElementsPicsounium instance) {
-		super(instance, 40);
+		super(instance, 43);
 	}
 
 	@Override

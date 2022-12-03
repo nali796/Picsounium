@@ -7,7 +7,7 @@ import net.minecraft.world.World;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedurePycsounium_dynamite extends ElementsPicsounium.ModElement {
 	public ProcedurePycsounium_dynamite(ElementsPicsounium instance) {
-		super(instance, 139);
+		super(instance, 133);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

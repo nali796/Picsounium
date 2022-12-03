@@ -8,7 +8,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureAtriciumswordToolInHandTick extends ElementsPicsounium.ModElement {
 	public ProcedureAtriciumswordToolInHandTick(ElementsPicsounium instance) {
-		super(instance, 261);
+		super(instance, 265);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

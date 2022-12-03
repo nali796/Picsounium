@@ -10,7 +10,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureOriumBodyTickEvent extends ElementsPicsounium.ModElement {
 	public ProcedureOriumBodyTickEvent(ElementsPicsounium instance) {
-		super(instance, 251);
+		super(instance, 255);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

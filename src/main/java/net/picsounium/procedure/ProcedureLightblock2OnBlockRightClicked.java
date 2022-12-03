@@ -13,7 +13,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureLightblock2OnBlockRightClicked extends ElementsPicsounium.ModElement {
 	public ProcedureLightblock2OnBlockRightClicked(ElementsPicsounium instance) {
-		super(instance, 188);
+		super(instance, 182);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

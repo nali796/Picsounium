@@ -26,7 +26,7 @@ public class ItemXpbubbles extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:xpbubbles")
 	public static final Item block = null;
 	public ItemXpbubbles(ElementsPicsounium instance) {
-		super(instance, 79);
+		super(instance, 82);
 	}
 
 	@Override

@@ -37,7 +37,7 @@ public class ItemHalloween_Hat extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:halloween_hatboots")
 	public static final Item boots = null;
 	public ItemHalloween_Hat(ElementsPicsounium instance) {
-		super(instance, 97);
+		super(instance, 205);
 	}
 
 	@Override

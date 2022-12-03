@@ -19,7 +19,7 @@ public class ItemTexturemod extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:texturemod")
 	public static final Item block = null;
 	public ItemTexturemod(ElementsPicsounium instance) {
-		super(instance, 287);
+		super(instance, 292);
 	}
 
 	@Override

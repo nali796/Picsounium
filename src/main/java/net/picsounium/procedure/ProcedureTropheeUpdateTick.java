@@ -10,7 +10,7 @@ import net.minecraft.entity.item.EntityItem;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureTropheeUpdateTick extends ElementsPicsounium.ModElement {
 	public ProcedureTropheeUpdateTick(ElementsPicsounium instance) {
-		super(instance, 202);
+		super(instance, 197);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

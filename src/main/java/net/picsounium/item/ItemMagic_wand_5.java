@@ -39,7 +39,7 @@ public class ItemMagic_wand_5 extends ElementsPicsounium.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 17;
 	public ItemMagic_wand_5(ElementsPicsounium instance) {
-		super(instance, 223);
+		super(instance, 221);
 	}
 
 	@Override

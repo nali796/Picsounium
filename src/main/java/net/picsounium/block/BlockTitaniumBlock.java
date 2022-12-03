@@ -22,7 +22,7 @@ public class BlockTitaniumBlock extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:titaniumblock")
 	public static final Block block = null;
 	public BlockTitaniumBlock(ElementsPicsounium instance) {
-		super(instance, 24);
+		super(instance, 27);
 	}
 
 	@Override

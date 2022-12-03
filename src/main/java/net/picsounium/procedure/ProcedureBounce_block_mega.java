@@ -14,7 +14,7 @@ import net.minecraft.block.properties.IProperty;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureBounce_block_mega extends ElementsPicsounium.ModElement {
 	public ProcedureBounce_block_mega(ElementsPicsounium instance) {
-		super(instance, 178);
+		super(instance, 172);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -37,7 +37,7 @@ public class BlockFakeWater extends ElementsPicsounium.ModElement {
 	public static final Item item = null;
 	private Fluid fluid;
 	public BlockFakeWater(ElementsPicsounium instance) {
-		super(instance, 74);
+		super(instance, 77);
 		fluid = new Fluid("fakewater", new ResourceLocation("picsounium:blocks/fakewater"), new ResourceLocation("picsounium:blocks/fakewater"))
 				.setLuminosity(0).setDensity(1000).setViscosity(1000).setGaseous(false);
 	}

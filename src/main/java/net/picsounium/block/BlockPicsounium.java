@@ -24,7 +24,7 @@ public class BlockPicsounium extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:picsounium")
 	public static final Block block = null;
 	public BlockPicsounium(ElementsPicsounium instance) {
-		super(instance, 34);
+		super(instance, 37);
 	}
 
 	@Override

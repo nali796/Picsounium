@@ -12,7 +12,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureUsurpa_mask_give extends ElementsPicsounium.ModElement {
 	public ProcedureUsurpa_mask_give(ElementsPicsounium instance) {
-		super(instance, 311);
+		super(instance, 310);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

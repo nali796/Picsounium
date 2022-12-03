@@ -13,7 +13,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureLightblockBlockAdded extends ElementsPicsounium.ModElement {
 	public ProcedureLightblockBlockAdded(ElementsPicsounium instance) {
-		super(instance, 187);
+		super(instance, 181);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

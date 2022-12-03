@@ -27,7 +27,7 @@ public class ItemOriumAxe extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:oriumaxe")
 	public static final Item block = null;
 	public ItemOriumAxe(ElementsPicsounium instance) {
-		super(instance, 50);
+		super(instance, 53);
 	}
 
 	@Override

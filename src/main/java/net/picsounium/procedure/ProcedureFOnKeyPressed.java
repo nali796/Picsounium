@@ -19,7 +19,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureFOnKeyPressed extends ElementsPicsounium.ModElement {
 	public ProcedureFOnKeyPressed(ElementsPicsounium instance) {
-		super(instance, 234);
+		super(instance, 232);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

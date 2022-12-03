@@ -17,7 +17,7 @@ import net.minecraft.block.Block;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureOlingeultreepousse extends ElementsPicsounium.ModElement {
 	public ProcedureOlingeultreepousse(ElementsPicsounium instance) {
-		super(instance, 173);
+		super(instance, 167);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

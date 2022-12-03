@@ -8,7 +8,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureOrium_spike_process extends ElementsPicsounium.ModElement {
 	public ProcedureOrium_spike_process(ElementsPicsounium instance) {
-		super(instance, 115);
+		super(instance, 109);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

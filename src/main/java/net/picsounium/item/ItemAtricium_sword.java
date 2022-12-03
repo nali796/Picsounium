@@ -33,7 +33,7 @@ public class ItemAtricium_sword extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:atricium_sword")
 	public static final Item block = null;
 	public ItemAtricium_sword(ElementsPicsounium instance) {
-		super(instance, 58);
+		super(instance, 61);
 	}
 
 	@Override

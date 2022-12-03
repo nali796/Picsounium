@@ -20,7 +20,7 @@ public class ItemAtriciumingot extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:atriciumingot")
 	public static final Item block = null;
 	public ItemAtriciumingot(ElementsPicsounium instance) {
-		super(instance, 54);
+		super(instance, 57);
 	}
 
 	@Override

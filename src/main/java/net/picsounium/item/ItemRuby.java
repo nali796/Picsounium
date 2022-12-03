@@ -20,7 +20,7 @@ public class ItemRuby extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:ruby")
 	public static final Item block = null;
 	public ItemRuby(ElementsPicsounium instance) {
-		super(instance, 299);
+		super(instance, 2);
 	}
 
 	@Override

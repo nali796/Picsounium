@@ -12,7 +12,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureLkmsve6ih5puqjng0mt2CommandExecuted extends ElementsPicsounium.ModElement {
 	public ProcedureLkmsve6ih5puqjng0mt2CommandExecuted(ElementsPicsounium instance) {
-		super(instance, 265);
+		super(instance, 270);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -37,7 +37,7 @@ public class ItemLucky_Hat extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:lucky_hatboots")
 	public static final Item boots = null;
 	public ItemLucky_Hat(ElementsPicsounium instance) {
-		super(instance, 98);
+		super(instance, 233);
 	}
 
 	@Override

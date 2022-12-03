@@ -9,7 +9,7 @@ import net.minecraft.util.EnumParticleTypes;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureBadMagicWandBulletHitsPlayer extends ElementsPicsounium.ModElement {
 	public ProcedureBadMagicWandBulletHitsPlayer(ElementsPicsounium instance) {
-		super(instance, 233);
+		super(instance, 231);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

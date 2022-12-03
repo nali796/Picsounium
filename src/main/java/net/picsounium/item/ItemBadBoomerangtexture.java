@@ -19,7 +19,7 @@ public class ItemBadBoomerangtexture extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:badboomerangtexture")
 	public static final Item block = null;
 	public ItemBadBoomerangtexture(ElementsPicsounium instance) {
-		super(instance, 209);
+		super(instance, 204);
 	}
 
 	@Override

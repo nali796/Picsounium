@@ -37,7 +37,7 @@ public class ItemJunglemask extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:junglemaskboots")
 	public static final Item boots = null;
 	public ItemJunglemask(ElementsPicsounium instance) {
-		super(instance, 308);
+		super(instance, 306);
 	}
 
 	@Override

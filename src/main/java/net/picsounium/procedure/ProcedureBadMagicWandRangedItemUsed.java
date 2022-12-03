@@ -10,7 +10,7 @@ import net.minecraft.entity.player.EntityPlayer;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureBadMagicWandRangedItemUsed extends ElementsPicsounium.ModElement {
 	public ProcedureBadMagicWandRangedItemUsed(ElementsPicsounium instance) {
-		super(instance, 232);
+		super(instance, 230);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

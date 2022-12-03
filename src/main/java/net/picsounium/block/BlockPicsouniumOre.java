@@ -30,7 +30,7 @@ public class BlockPicsouniumOre extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:picsouniumore")
 	public static final Block block = null;
 	public BlockPicsouniumOre(ElementsPicsounium instance) {
-		super(instance, 31);
+		super(instance, 34);
 	}
 
 	@Override

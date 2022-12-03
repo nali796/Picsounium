@@ -39,7 +39,7 @@ public class ItemPicsouniumDynamite extends ElementsPicsounium.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 3;
 	public ItemPicsouniumDynamite(ElementsPicsounium instance) {
-		super(instance, 68);
+		super(instance, 71);
 	}
 
 	@Override

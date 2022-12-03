@@ -34,7 +34,7 @@ public class BlockDecoserv extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:decoserv")
 	public static final Block block = null;
 	public BlockDecoserv(ElementsPicsounium instance) {
-		super(instance, 291);
+		super(instance, 97);
 	}
 
 	@Override

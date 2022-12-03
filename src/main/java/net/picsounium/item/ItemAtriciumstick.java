@@ -20,7 +20,7 @@ public class ItemAtriciumstick extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:atriciumstick")
 	public static final Item block = null;
 	public ItemAtriciumstick(ElementsPicsounium instance) {
-		super(instance, 55);
+		super(instance, 58);
 	}
 
 	@Override

@@ -37,7 +37,7 @@ public class ItemLoupopo_hat extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:loupopo_hatboots")
 	public static final Item boots = null;
 	public ItemLoupopo_hat(ElementsPicsounium instance) {
-		super(instance, 99);
+		super(instance, 234);
 	}
 
 	@Override

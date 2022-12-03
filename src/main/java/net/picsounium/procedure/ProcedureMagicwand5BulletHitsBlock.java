@@ -7,7 +7,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureMagicwand5BulletHitsBlock extends ElementsPicsounium.ModElement {
 	public ProcedureMagicwand5BulletHitsBlock(ElementsPicsounium instance) {
-		super(instance, 224);
+		super(instance, 222);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

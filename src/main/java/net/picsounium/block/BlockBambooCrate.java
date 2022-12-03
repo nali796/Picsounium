@@ -1,9 +1,7 @@
 
 package net.picsounium.block;
 
-import net.picsounium.gui.GuiLuckyblockGuirecipe;
 import net.picsounium.creativetab.TabPicsouniumtab;
-import net.picsounium.Picsounium;
 import net.picsounium.ElementsPicsounium;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -14,8 +12,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.EnumFacing;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
@@ -26,48 +22,44 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 @ElementsPicsounium.ModElement.Tag
-public class BlockOrium_Lucky_Block extends ElementsPicsounium.ModElement {
-	@GameRegistry.ObjectHolder("picsounium:orium_lucky_block")
+public class BlockBambooCrate extends ElementsPicsounium.ModElement {
+	@GameRegistry.ObjectHolder("picsounium:bamboocrate")
 	public static final Block block = null;
-	public BlockOrium_Lucky_Block(ElementsPicsounium instance) {
-		super(instance, 4);
+	public BlockBambooCrate(ElementsPicsounium instance) {
+		super(instance, 9);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("orium_lucky_block"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("bamboocrate"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("picsounium:orium_lucky_block", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("picsounium:bamboocrate", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.SPONGE);
-			setUnlocalizedName("orium_lucky_block");
-			setSoundType(SoundType.METAL);
-			setHardness(0.75F);
-			setResistance(50F);
+			super(Material.WOOD);
+			setUnlocalizedName("bamboocrate");
+			setSoundType(SoundType.WOOD);
+			setHardness(1F);
+			setResistance(10F);
 			setLightLevel(0F);
-			setLightOpacity(255);
+			setLightOpacity(0);
 			setCreativeTab(TabPicsouniumtab.tab);
 		}
 
 		@Override
-		public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer entity, EnumHand hand, EnumFacing direction,
-				float hitX, float hitY, float hitZ) {
-			super.onBlockActivated(world, pos, state, entity, hand, direction, hitX, hitY, hitZ);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			if (entity instanceof EntityPlayer) {
-				((EntityPlayer) entity).openGui(Picsounium.instance, GuiLuckyblockGuirecipe.GUIID, world, x, y, z);
-			}
-			return true;
+		public boolean isOpaqueCube(IBlockState state) {
+			return false;
+		}
+
+		@Override
+		public boolean canSilkHarvest(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
+			return false;
 		}
 	}
 }

@@ -10,7 +10,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureCanabasFoodEaten extends ElementsPicsounium.ModElement {
 	public ProcedureCanabasFoodEaten(ElementsPicsounium instance) {
-		super(instance, 283);
+		super(instance, 288);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -37,7 +37,7 @@ public class ItemNaligator_Hat extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:naligator_hatboots")
 	public static final Item boots = null;
 	public ItemNaligator_Hat(ElementsPicsounium instance) {
-		super(instance, 94);
+		super(instance, 199);
 	}
 
 	@Override

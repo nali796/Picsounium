@@ -38,7 +38,7 @@ public class GuiIroncrategui extends ElementsPicsounium.ModElement {
 	public static int GUIID = 6;
 	public static HashMap guistate = new HashMap();
 	public GuiIroncrategui(ElementsPicsounium instance) {
-		super(instance, 172);
+		super(instance, 166);
 	}
 
 	@Override

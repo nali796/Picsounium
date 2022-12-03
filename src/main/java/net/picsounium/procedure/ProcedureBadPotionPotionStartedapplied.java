@@ -10,7 +10,7 @@ import net.minecraft.entity.Entity;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureBadPotionPotionStartedapplied extends ElementsPicsounium.ModElement {
 	public ProcedureBadPotionPotionStartedapplied(ElementsPicsounium instance) {
-		super(instance, 180);
+		super(instance, 174);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

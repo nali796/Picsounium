@@ -20,7 +20,7 @@ public class ItemOriumnugget extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:oriumnugget")
 	public static final Item block = null;
 	public ItemOriumnugget(ElementsPicsounium instance) {
-		super(instance, 42);
+		super(instance, 45);
 	}
 
 	@Override

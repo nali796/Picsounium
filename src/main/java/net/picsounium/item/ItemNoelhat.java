@@ -37,7 +37,7 @@ public class ItemNoelhat extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:noelhatboots")
 	public static final Item boots = null;
 	public ItemNoelhat(ElementsPicsounium instance) {
-		super(instance, 103);
+		super(instance, 241);
 	}
 
 	@Override

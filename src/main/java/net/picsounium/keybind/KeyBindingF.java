@@ -30,7 +30,7 @@ import net.minecraft.client.Minecraft;
 public class KeyBindingF extends ElementsPicsounium.ModElement {
 	private KeyBinding keys;
 	public KeyBindingF(ElementsPicsounium instance) {
-		super(instance, 216);
+		super(instance, 214);
 	}
 
 	@Override

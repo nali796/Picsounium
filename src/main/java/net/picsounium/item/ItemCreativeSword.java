@@ -29,7 +29,7 @@ public class ItemCreativeSword extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:creativesword")
 	public static final Item block = null;
 	public ItemCreativeSword(ElementsPicsounium instance) {
-		super(instance, 93);
+		super(instance, 96);
 	}
 
 	@Override

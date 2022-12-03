@@ -29,7 +29,7 @@ public class ItemBanana_shovel extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:banana_shovel")
 	public static final Item block = null;
 	public ItemBanana_shovel(ElementsPicsounium instance) {
-		super(instance, 77);
+		super(instance, 80);
 	}
 
 	@Override

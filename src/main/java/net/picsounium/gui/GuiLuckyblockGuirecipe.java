@@ -39,7 +39,7 @@ public class GuiLuckyblockGuirecipe extends ElementsPicsounium.ModElement {
 	public static int GUIID = 9;
 	public static HashMap guistate = new HashMap();
 	public GuiLuckyblockGuirecipe(ElementsPicsounium instance) {
-		super(instance, 235);
+		super(instance, 237);
 	}
 
 	@Override

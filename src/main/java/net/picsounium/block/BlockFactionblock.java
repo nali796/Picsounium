@@ -26,7 +26,7 @@ public class BlockFactionblock extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:factionblock")
 	public static final Block block = null;
 	public BlockFactionblock(ElementsPicsounium instance) {
-		super(instance, 294);
+		super(instance, 89);
 	}
 
 	@Override

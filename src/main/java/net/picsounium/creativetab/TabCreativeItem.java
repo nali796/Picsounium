@@ -13,7 +13,7 @@ import net.minecraft.creativetab.CreativeTabs;
 @ElementsPicsounium.ModElement.Tag
 public class TabCreativeItem extends ElementsPicsounium.ModElement {
 	public TabCreativeItem(ElementsPicsounium instance) {
-		super(instance, 179);
+		super(instance, 173);
 	}
 
 	@Override

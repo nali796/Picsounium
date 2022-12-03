@@ -13,7 +13,7 @@ import net.minecraft.item.ItemStack;
 @ElementsPicsounium.ModElement.Tag
 public class RecipeOriumorerecipenoglitch extends ElementsPicsounium.ModElement {
 	public RecipeOriumorerecipenoglitch(ElementsPicsounium instance) {
-		super(instance, 119);
+		super(instance, 113);
 	}
 
 	@Override

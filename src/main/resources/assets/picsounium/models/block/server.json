@@ -5,7 +5,7 @@
     "up": "picsounium:blocks/server_top",
     "north": "picsounium:blocks/server_face_on",
     "east": "picsounium:blocks/server_side",
-    "south": "picsounium:blocks/server_face",
+    "south": "picsounium:blocks/server_side",
     "west": "picsounium:blocks/server_side",
     "particle": "picsounium:blocks/server_top"
   }

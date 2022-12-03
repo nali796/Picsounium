@@ -24,7 +24,7 @@ public class ItemTitanium_pickaxe extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:titanium_pickaxe")
 	public static final Item block = null;
 	public ItemTitanium_pickaxe(ElementsPicsounium instance) {
-		super(instance, 27);
+		super(instance, 30);
 	}
 
 	@Override

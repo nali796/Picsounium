@@ -7,7 +7,7 @@ import net.minecraft.world.World;
 @ElementsPicsounium.ModElement.Tag
 public class ProcedureDynamiteBulletHitsBlock extends ElementsPicsounium.ModElement {
 	public ProcedureDynamiteBulletHitsBlock(ElementsPicsounium instance) {
-		super(instance, 138);
+		super(instance, 132);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

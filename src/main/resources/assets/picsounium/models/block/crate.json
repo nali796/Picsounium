@@ -1,0 +1,9 @@
+{
+  "parent": "picsounium:custom/crate",
+  "textures": {
+    "all": "picsounium:blocks/bamboo_crate",
+    "particle": "picsounium:blocks/bamboo_crate",
+    "1": "picsounium:blocks/bamboo_crate",
+    "missing": "picsounium:blocks/bamboo_crate"
+  }
+}

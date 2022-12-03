@@ -24,7 +24,7 @@ public class ItemDestructortieri extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:destructortieri")
 	public static final Item block = null;
 	public ItemDestructortieri(ElementsPicsounium instance) {
-		super(instance, 18);
+		super(instance, 21);
 	}
 
 	@Override

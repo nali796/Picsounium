@@ -35,7 +35,7 @@ public class BlockPhantom extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:phantom")
 	public static final Block block = null;
 	public BlockPhantom(ElementsPicsounium instance) {
-		super(instance, 84);
+		super(instance, 87);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class ItemCanabas extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:canabas")
 	public static final Item block = null;
 	public ItemCanabas(ElementsPicsounium instance) {
-		super(instance, 85);
+		super(instance, 11);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class BlockPicsounium_Luckyblock extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:picsounium_luckyblock")
 	public static final Block block = null;
 	public BlockPicsounium_Luckyblock(ElementsPicsounium instance) {
-		super(instance, 3);
+		super(instance, 4);
 	}
 
 	@Override

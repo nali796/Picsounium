@@ -24,7 +24,7 @@ public class ItemTitanium_shovel extends ElementsPicsounium.ModElement {
 	@GameRegistry.ObjectHolder("picsounium:titanium_shovel")
 	public static final Item block = null;
 	public ItemTitanium_shovel(ElementsPicsounium instance) {
-		super(instance, 30);
+		super(instance, 33);
 	}
 
 	@Override
