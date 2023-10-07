@@ -6,13 +6,12 @@ build/
 .idea/
 .settings/
 
-# MCreator workspace
-.mcreator/
+
 
 # Minecraft client/server files
 run/
 
-# MCreator generator ignores
+
 src/main/resources/assets/*/models/custom
 src/main/resources/assets/*/models/item
 src/main/resources/assets/*/textures/blocks
